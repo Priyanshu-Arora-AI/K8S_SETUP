@@ -1,5 +1,5 @@
 # K8S_SETUP
- ## SETUP COMMAND
+ ## CRIO SETUP COMMAND
 ```
 {
  sudo su -
