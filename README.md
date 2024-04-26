@@ -10,3 +10,11 @@
  systemctl status crio
  systemctl start crio `
 }
+
+```
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
