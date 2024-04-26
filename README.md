@@ -65,6 +65,19 @@
 
    sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
    kubeadm config images pull
+   systemctl enable kubelet.service --now
+   sudo firewall-cmd --zone=public --add-port=6443/tcp --permanent
+   sudo firewall-cmd --zone=public --add-port=10250/tcp --permanent
+   sudo firewall-cmd --reload
+   sudo vim /etc/default/kubelet
+	         KUBELET_EXTRA_ARGS=--feature-gates="NodeSwap=true"
+   sudo systemctl restart kubelet
+   sudo sysctl net.ipv4.ip_forward=1
+   sudo vim /etc/sysctl.conf
+	      net.ipv4.ip_forward = 1
+   sudo sysctl -p
+   kubeadm init  --pod-network-cidr 10.1.0.0/16
+
    
    
    
