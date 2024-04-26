@@ -34,6 +34,7 @@
 3. THEN INSTALL CRIO
  ## CRIO SETUP COMMAND
 ![alt text](https://github.com/Priyanshu-Arora-AI/K8S_SETUP/blob/main/source/crio.png) 
+![alt text](https://github.com/Priyanshu-Arora-AI/K8S_SETUP/blob/main/source/k8s.png) 			
 ```
 {
  sudo su -
