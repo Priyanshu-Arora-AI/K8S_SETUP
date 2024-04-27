@@ -86,6 +86,7 @@ crictl ps -a --quiet | xargs crictl rm
 rm -rf /var/lib/etcd
 crictl rmi --prune
 dnf remove crio* -y
+sudo systemctl daemon-reload
 }
 ```
 
