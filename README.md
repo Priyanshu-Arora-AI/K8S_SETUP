@@ -1,32 +1,17 @@
 # K8S_SETUP
-   IN RHEL 9
+   IN AWS AMi
 
-#### MAKE YOUR VM IP STATIC AND ENABLE BRIDGE AND NAT ADAPTER
-1. Open the network configuration file for the NAT interface. This could be located at /etc/sysconfig/network-scripts/ifcfg-enp0s8 (replace enp0s8 with the actual interface name).
-  ```
-    {
-  sudo vim /etc/sysconfig/network-scripts/ifcfg-enp0s3     [ENP IS NAT ADAPTER NAME]
-     TYPE="Ethernet"
-     BOOTPROTO="static"
-     NAME="enp0s3"
-     DEVICE="enp0s3"
-     ONBOOT="yes"
-     IPADDR="desired_static_ip"
-     NETMASK="subnet_mask"
-     GATEWAY="gateway_address"
-     DNS1="dns_server_address"
- sudo nano /etc/sysconfig/network-scripts/ifcfg-enp0s8   [it is bridge adapter name}
-     TYPE="Ethernet"
-     BOOTPROTO="static"
-     NAME="enp0s8"
-     DEVICE="enp0s8"
-     ONBOOT="yes"
-     IPADDR="desired_static_ip"
-     NETMASK="subnet_mask"
-
-
+##### allocate public ip to instance
+### set custom hostname
+```
+{
+hostname should be in fqdn format
+hostnamectl set-hostname
+vi /etc/hosts
+	public_ip hostname
 }
 ```
+
 ## MASTER NODE
 
 1. INSTALL IPTABLES
