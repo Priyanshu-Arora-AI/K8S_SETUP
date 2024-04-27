@@ -53,9 +53,11 @@ vi /etc/hosts
    sudo yum install -y kubelet kubeadm kubectl --disableexcludes=kubernetes
    kubeadm config images pull
    systemctl enable kubelet.service --now
-   sudo firewall-cmd --zone=public --add-port=6443/tcp --permanent
-   sudo firewall-cmd --zone=public --add-port=10250/tcp --permanent
-   sudo firewall-cmd --reload
+```
+setup firewall rule or edit in security group {
+	allow 6443 abd 10250 tcp port   
+ }
+ ```
    sudo vim /etc/default/kubelet
 	         KUBELET_EXTRA_ARGS=--feature-gates="NodeSwap=true"
    sudo systemctl restart kubelet
@@ -70,4 +72,22 @@ vi /etc/hosts
    
    }
    ```
+
+
+some destructive command don't use in production env it is for just clean the environment
+```
+{
+sudo kubeadm reset
+sudo dnf remove kubectl kubeadm kubelet -y
+sudo rm -rf /etc/kubernetes/
+rm ~/.kube/config
+crictl ps -a --quiet | xargs crictl stop
+crictl ps -a --quiet | xargs crictl rm
+rm -rf /var/lib/etcd
+crictl rmi --prune
+dnf remove crio* -y
+}
+```
+
+
    
