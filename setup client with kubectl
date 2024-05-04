@@ -1,0 +1,73 @@
+# setup custom kubectl client
+# setup iam in k8s
+# with custom sub ca 
+login with root must
+
+in kubectl client run command 
+
+#add rep for kubectl
+		cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+		[kubernetes]
+		name=Kubernetes
+		baseurl=https://pkgs.k8s.io/core:/stable:/v1.30/rpm/
+		enabled=1
+		gpgcheck=1
+		gpgkey=https://pkgs.k8s.io/core:/stable:/v1.30/rpm/repodata/repomd.xml.key
+		exclude=kubelet kubeadm kubectl cri-tools kubernetes-cni
+		EOF
+		sudo yum install -y kubectl --disableexcludes=kubernetes
+		yum install openssl -y
+		yum install openssl-lib -y
+		mkdir subca
+		cd subca 
+		mkdir private
+		cd private
+		openssl genrsa -out sub-ca.key  -aes256 4096  key 1234
+    ## note : --> command name is equal to user name of iam
+		openssl req -new -key private/sub-ca.key -sha256 -out subca.csr	
+		openssl req -in subca.csr -text
+    ##	transfer subca.csr to k8s system in my case i am using winscp allow winscp in firewall
+    sudo -i
+		# locate k8s local ca
+			cd /etc/kubernetes
+			cd manifest 
+			cat kube-apiserver.yml [ in this dir we find location of local ca]
+             #   o/p-->			var/lib/minikube/certs/ca.crt
+      openssl x509 -req -in /root/subca.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out /root/subca.crt -days 3650
+    # now copy these subca.crt and ca.crt file to client where already we have private key of subca
+  kubectl config view > mykube.config
+		
+# confif file 
+apiVersion: v1
+clusters:
+- name: minikube
+  cluster:
+    certificate-authority: /root/subca/ca.crt
+    server: https://192.168.59.104:8443
+contexts:
+- name: mycontext
+  context:
+    cluster: minikube
+    user: priyanshu
+current-context: mycontext
+kind: Config
+preferences: {}
+users:
+- name: priyanshu
+  user:
+    client-key: /root/subca/private/sub-ca.key
+    client-certificate: /root/subca/subca.crt
+
+# decrypt private key
+openssl rsa -in /root/subca/private/sub-ca.key -out /root/subca/private/sub-ca.key
+kubectl get pods
+#	error = Error from server (Forbidden): pods is forbidden: User "subca" cannot list resource "pods" 		in API group "" in the namespace "default" it means you successfully create custom iam for k8s cluster
+	now for further thing you need to set rbac
+
+
+
+VERY IMPORTANT TIPS :--> DECRYPT YOUR PRIVATE KEY MAY BE HARMFUL SO SETUP IN A WAY NOBODY SHOULD GET DIRECT ACCES OF IT 
+common name in subca === user name		
+	
+		
+		
