@@ -1,0 +1,54 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mypriyanshu
+  namespace: default
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 1Gi  
+  # persistentVolumeReclaimPolicy: Retain    
+  # storageClassName: "" # Empty string must be explicitly set otherwise default StorageClass will be set
+  # volumeName: foo-pv
+
+
+  
+
+  
+  # volumeMode: Filesystem
+  
+  # storageClassName: slow
+  # selector:
+  #   matchLabels:
+  #     release: "stable"
+  #   matchExpressions:
+  #     - {key: environment, operator: In, values: [dev]}
+
+
+
+
+# spec:
+#   capacity:
+#     storage: 10Gi
+ 
+  # volumeMode: Block
+
+  # fc:
+  #   targetWWNs: ["50060e801049cfd1"]
+  #   lun: 0
+  #   readOnly: false
+
+
+PV volumeMode	PVC volumeMode	Result
+unspecified	unspecified	BIND
+unspecified	Block	NO BIND
+unspecified	Filesystem	BIND
+Block	unspecified	NO BIND
+Block	Block	BIND
+Block	Filesystem	NO BIND
+Filesystem	Filesystem	BIND
+Filesystem	Block	NO BIND
+Filesystem	unspecified	BIND
+

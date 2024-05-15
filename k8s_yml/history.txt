@@ -1,0 +1,4502 @@
+   84  kubectl.exe get pods
+   85  kubectl.exe get pods
+   86  kubectl.exe get pods
+   87  kubectl.exe get pods
+   88  kubectl.exe get pods
+   89  kubectl.exe get pods
+   90  kubectl.exe get pods
+   91  kubectl.exe get pods
+   92  kubectl.exe get pods
+   93  kubectl.exe get pods --watch
+   94  kubectl.exe delete deployment --all
+   95  minikube stop
+   96  minikube start
+   97  minikube addons enable metrics-server
+   98  minikube dashboard
+   99  minikube dashboard
+  100   minikube dashboard --port=0 
+  101   minikube dashboard --port=0 --url=false -v
+  102   minikube dashboard --port=0 --url=false 
+  103   minikube dashboard --port=0 --url=true
+  104   minikube dashboard stop
+  105  kubectl.exe get dep
+  106  kubectl.exe get deployment
+  107  minikube stop
+  108  minikube start
+  109  minikube stop
+  110  minikube stop
+  111  minikube start
+  112  minikube addons enable metrics-server
+  113  minikube dashboard
+  114  minikube dashboard
+  115  cd /
+  116  cd d
+  117  cd "devops project"/
+  118  cd k8s_yml/
+  119  ls
+  120  clear
+  121  kubectl.exe apply -f nginx-deployment.yaml 
+  122  kubectl expose --help
+  123  clear
+  124  kubectl.exe get deploy
+  125  kubectl.exe get rs
+  126  kubectl.exe roolout --help
+  127  kubectl.exe rollout --help
+  128  kubectl.exe rollout status
+  129  kubectl.exe rollout status --all
+  130  kubectl.exe rollout status all
+  131  kubectl set image deployment.v1.apps/nginx-deployment nginx=nginx:1.16.1
+  132  kubectl.exe rollout status all
+  133  kubectl rollout history deployment/nginx-deployment --revision=2
+  134  kubectl rollback
+  135  kubectl rollout --help
+  136  kubectl rollout undo deployment/nginx-deployment
+  137  minikube stop
+  138  minikube start --help
+  139  minikube start --driver=virtualbox
+  140  minikube d
+  141  minikube start --driver=virtualbox
+  142  minikube start
+  143  minikube stop
+  144  minikube start
+  145  minikube addons enable metrics-server
+  146  minikube dasboard
+  147  minikube dashboard
+  148  minikube start --driver=virtualbox
+  149  minikube delete
+  150   minikube addons enable metrics-server
+  151  minikube stop
+  152  minikube ssh
+  153  clear
+  154  kubectl get pods
+  155  minikube ssh
+  156  kubectl get pods
+  157  minikube ssh
+  158  clear
+  159  kubectl get sc
+  160  kubectl get sc -o yaml
+  161  kubectl get sc -o wide
+  162  kubectl get sc -o yaml >> storage-class.yaml
+  163  kubectl delete sc 
+  164  kubectl get sc -o wide
+  165  kubectl delete sc standard
+  166  kubectl get sc -o wide
+  167  ls
+  168  cd /
+  169  cd ..
+  170  ls
+  171  cd
+  172  ls
+  173  mv storage-class.yaml /d
+  174  cd /
+  175  ls
+  176  cd d
+  177  ls
+  178  mv storage-class.yaml /"devops project"/
+  179  mv storage-class.yaml /"devops project"
+  180  cd "devops project"/
+  181  cd k8s_yml/
+  182  ls
+  183  clear
+  184  ls
+  185  kubectl.exe apply -f storage-class.yaml 
+  186  kubectl.exe get pvc
+  187  kubectl.exe get sc
+  188  kubectl.exe delete sc all
+  189  kubectl.exe delete sc --all
+  190  kubectl.exe apply -f pvc.yaml 
+  191  kubectl.exe get pvc
+  192  minikube ssh
+  193  minikube ssh
+  194  kubectl.exe apply -f pv.yaml 
+  195  kubectl.exe apply -f pv.yaml 
+  196  kubectl.exe apply -f pv.yaml 
+  197  kubectl.exe get pv
+  198  kubectl.exe apply -f pv.yaml 
+  199  kubectl.exe get pv
+  200  ls
+  201  cp mysql.yaml mysql-pvc-pod.yaml
+  202  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  203  kubectl.exe apply get pods
+  204  kubectl.exe get pods
+  205  kubectl.exe get pods
+  206  kubectl.exe get pods
+  207  kubectl.exe get pods
+  208  kubectl.exe get pods
+  209  kubectl.exe get pods
+  210  kubectl.exe get pods
+  211  kubectl.exe get pods
+  212  kubectl.exe get pods
+  213  kubectl.exe get pods
+  214  kubectl.exe get pods
+  215  kubectl.exe get pods
+  216  kubectl.exe delete pod all
+  217  kubectl.exe delete pod --all
+  218  minukube ssh
+  219  minikube ssh
+  220  minikube ssh
+  221  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  222  kubectl.exe get pods
+  223  kubectl.exe get pods
+  224  kubectl.exe get pods
+  225  kubectl.exe get pods
+  226  kubectl.exe get pods
+  227  kubectl.exe get pods
+  228  kubectl.exe get pods
+  229  kubectl.exe get pods
+  230  ls
+  231  kubectl.exe apply -f mysql-secret.yaml 
+  232  kubectl.exe delete pod --all
+  233  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  234  kubectl.exe get pods
+  235  kubectl.exe get pods
+  236  kubectl.exe get pods
+  237  kubectl.exe get pods
+  238  kubectl.exe get pods
+  239  kubectl.exe get pods
+  240  kubectl.exe get pods
+  241  kubectl.exe get pods
+  242  kubectl.exe get pods
+  243  kubectl.exe get pods
+  244  kubectl.exe get pods
+  245  minikube ssh
+  246  kubectl delete pods --all
+  247  kubectl delete pvc --all
+  248  kubectl delete pv --all
+  249  minikube ssh
+  250  kubectl get pv 
+  251  kubectl get pvc
+  252  minikube start --driver=virtualbox
+  253  minikube delete
+  254  minikube start --driver=virtualbox
+  255  minikube delete
+  256  minikube start --driver=virtualbox
+  257  kubectl get pods
+  258  minikube dashboard
+  259  minikube start --driver=virtualbox
+  260  minikube dashboard
+  261  minikube start --driver=virtualbox
+  262  minikube stop
+  263  minikube start
+  264  minikube dashboard
+  265  minikube start
+  266  minikube stop
+  267  minikube start
+  268  minikube ssh
+  269  kubectl get pods
+  270  kubectl get all
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  minikube delete
+  275  clear
+  276  minikube start
+  277  minikube start
+  278  minikube ssh
+  279  ls
+  280  cd /
+  281  cd d
+  282  ls
+  283  cd "devops project"/
+  284  LS
+  285  CD k8s_yml/
+  286  cd k8s_yml/
+  287  ls
+  288  kubectl get pods
+  289  kubectl
+  290  minikube kubectl get pods
+  291  kubectl get pods
+  292  alias
+  293  alias --help
+  294  alias kubectl = 'minikube kubectl'
+  295  set alias
+  296  set alias --help
+  297  alias -p
+  298  ls
+  299  cd
+  300  ls
+  301  ls -a
+  302  cd c
+  303  cd /
+  304  cd c
+  305  cd Program
+  306  pwd
+  307  cd "Program Files"
+  308  cd Git/
+  309  ls
+  310  cd etc/
+  311  ls
+  312  cd profile.d
+  313  ls
+  314  vim aliases.sh 
+  315  kubectl get pods
+  316  kubectl get pods
+  317  kubectl
+  318  kubectl
+  319  kubectl get pods
+  320  cd
+  321  cd /D
+  322  pwd
+  323  cd "devops project"/
+  324  cd k8s_yml/
+  325  ls
+  326  pwd
+  327  cd
+  328  pwd
+  329  cd /D/devops project/k8s_yml
+  330  cd /D/"devops project"/k8s_yml
+  331  ls
+  332  k8s
+  333  ls
+  334  minikube status
+  335  kubectl get sc
+  336  kubectl get sc -o yaml
+  337  kubectl get sc 
+  338  kubectl get sc -o yml
+  339  minikube kubectl get sc -o yml
+  340  minikube kubectl get sc --help
+  341  minikube kubectl get sc standard
+  342  minikube kubectl get sc standard -o yaml
+  343  minikube kubectl get sc standard -o yml
+  344  minikube kubectl get sc standard --help
+  345  minikube kubectl get sc standard -o yml
+  346  minikube kubectl get sc standard --output=yaml
+  347  minikube kubectl get sc standard > standard_storage_class.yaml
+  348  ls
+  349  cat standard_storage_class.yaml 
+  350  kubectl get storageclass standard -o yaml
+  351  kubectl get storageclass standard --output=yaml
+  352  kubectl get storageclass standard -o yaml
+  353  kubectl.exe get storageclass standard -o yaml
+  354  kubectl
+  355  kubectl get storageclass standard -o yaml
+  356  kubectl create --help
+  357  kubectl create namespace myspace
+  358  kubectl get ns
+  359  kubectl cluster info
+  360  kubectl cluster-info
+  361  kubectl cluster-inf
+  362  kubectl config view
+  363  kubectl config get context
+  364  kubectl config get-context
+  365  kubectl config --h
+  366  kubectl config --help
+  367  kubectl config get-context
+  368  kubectl config get-contexts
+  369  k8s
+  370  ls
+  371  kubectl apply -f pod.yml --namespace myspace
+  372  kubectl get pods
+  373  kubectl get pods -ns myspace
+  374  kubectl get pods --namespace myspace
+  375  kubectl config view
+  376  minikube stop
+  377  minikube start
+  378  minikube ip
+  379  minikube ssh
+  380  minikube ssh
+  381  minikube ssh
+  382  minikube ssh
+  383  minikube ssh
+  384  minikube ip
+  385  minikube ssh
+  386  minikube ssh
+  387  minikube ip
+  388  minikube ip
+  389  minikube ssh
+  390  minikube ssh
+  391  minikube ssh
+  392  minikube ssh
+  393  minikube ssh
+  394  minikube ssh
+  395  minikube ip
+  396  kubectl config view
+  397  kubectl config view --minify -o jsonpath='{.clusters[0].name}'
+  398  kubectl cluster-info
+  399  kubectl cluster-info dump
+  400  clear
+  401  kubectl cluster-info
+  402  kubectl get context
+  403  kubectl config view
+  404  kubectl config get-context
+  405  kubectl config get context
+  406  kubectl config 
+  407  kubectl config get-contexts
+  408  minikube ssh
+  409  minikube ssh
+  410  kubectl get --help
+  411  clear
+  412  "kubectl api-resources
+  413  kubectl api-resources
+  414  kubectl get im
+  415  kubectl get cluster-role
+  416  kubectl get cluster
+  417  kubectl get clusterrole
+  418  kubectl describe clusterrole admin
+  419  kubectl describe clusterrole cluster-admin
+  420  kubectl get clusterrolebinding
+  421  kubectl describe clusterrolebinding cluster-admin
+  422  kubectl describe clusterrole cluster-admin
+  423  kubectl get ns all
+  424  kubectl get ns --all
+  425  kubectl get ns 
+  426  kubectl create ns new
+  427  kubectl delete ns myspace
+  428  ls
+  429  k8s
+  430  ls
+  431  kubectl get ns
+  432  kubectl apply -f myrole.yaml 
+  433  kubectl get clusterrole
+  434  kubectl get clusterrole pod-listning
+  435  kubectl get clusterrole pod-listing
+  436  kubectl get role pod-listing
+  437  kubectl get role 
+  438  kubectl get role
+  439  kubectl get clusterrole 
+  440  kubectl get role -n new
+  441  kubectl get role 
+  442  kubectl get role -n new
+  443  kubectl describe role pod-listing -n new
+  444  kubectl get csr
+  445  kubectl get csr all
+  446  kubectl get csr --all
+  447  kubectl get csr --all-namespaces
+  448  kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+  449  kubectl get ns
+  450  ls
+  451  kubectl apply -f myrolebinding 
+  452  kubectl apply -f pod.yml -n new
+  453  kubectl get csr
+  454  ls
+  455  kubectl create -f subca.csr
+  456  kubectl create csr --filename=subca.csr
+  457  kubectl apply -f subca.csr
+  458  kubectl create csr subca --certificate=subca.csr
+  459  kubectl get pods --all
+  460  kubectl get pods all
+  461  kubectl get pods -n system
+  462  kubectl get ns
+  463  kubectl get pods -n kube-system
+  464  kubectl logs kube-apiserver-minikube -n kube-system
+  465  kubectl create csr subca --certificate=subca.csr
+  466  kubectl apply -f subca.csr
+  467  kubectl logs kube-apiserver-minikube -n kube-system
+  468  kubectl logs kube-apiserver-minikube -n kube-system
+  469  kubectl get events -n kube-system
+  470  kubectl get csr
+  471  kubectl get csr -o yaml 
+  472  ls
+  473  kubectl apply -f mycsr.yml 
+  474  kubectl apply -f mycsr.yml 
+  475  cat subca.csr | base64 | tr -d '\n' >> ../subca.scr
+  476   
+  477  cd ..
+  478  ;s
+  479  ls
+  480  cat subca.scr 
+  481  vim subca.scr 
+  482  mv subca.scr subca.csr
+  483  ls
+  484  vim subca.csr 
+  485  vi subca.csr 
+  486  ld
+  487  ls
+  488  rm -rf k8s_yml/mycsr.yml 
+  489  mv subca.csr k8s_yml/myscr.yaml
+  490  cd k8s_yml/
+  491  kubectl apply -f mycsr.yml 
+  492  ls
+  493  kubectl apply -f myscr.yml 
+  494  kubectl apply -f myscr.yaml 
+  495  kubectl apply -f myscr.yaml 
+  496  kubectl get csr
+  497  kubectl certificate approve example-csr
+  498  kubectl get csr example-csr -o jsonpath='{.status}'
+  499  minikube stop
+  500  minikube start
+  501  kubectl
+  502  minikube ip
+  503  curl http:// 192.168.59.104:8443
+  504  curl https:// 192.168.59.104:8443
+  505  curl https:// 192.168.59.104:6443
+  506  curl https:// 192.168.59.104:8443
+  507  kubectl get config
+  508* kubectl 
+  509  kubectl get config
+  510  kubectl get --help
+  511  kubectl api-resources
+  512  kubectl get configmaps
+  513  kubectl --help
+  514  kubectl config 
+  515  kubectl config view
+  516  K8S
+  517  k8s
+  518   curl --cert client.crt --key client.key --cacert ca.crt https://192.168.59.104:8443
+  519  kubectl get pods
+  520  kubectl get pods -n new
+  521  kubectl delete pods all -all
+  522  kubectl delete pods all --all
+  523  kubectl delete pods all
+  524  kubectl delete pods --all
+  525  kubectl delete pods --all -n new
+  526  kubectl apply -f pod.yml 
+  527  kubectl get pods 
+  528  kubectl delete pods --all -n all
+  529  kubectl delete pods --all -n -all
+  530  kubectl get pods 
+  531  kubectl delete pods --all
+  532  kubectl delete pods --all all
+  533  kubectl delete pods --all -n all
+  534* kubectl get 
+  535  kubectl api-resources
+  536  kubectl get cm
+  537  kubectl get cm -o yaml
+  538  kubectl get pods
+  539  clear
+  540  clear
+  541  kubectl get pods
+  542  vim configmap-for -nginx.yaml
+  543  vim configmap-for-nginx.yaml
+  544  kubectl apply -f configmap-for-nginx.yaml 
+  545  cat configmap-for-nginx.yaml 
+  546  rm -rf configmap-for-nginx.yaml 
+  547  vim configmap-for-nginx.yaml
+  548  kubectl apply -f configmap-for-nginx.yaml 
+  549  kubectl get configmap
+  550  kubectl describe configmap nginx-config
+  551* 
+  552  kubectl apply -f pod.yml 
+  553  vim pod.yml 
+  554  kubectl apply -f pod.yml 
+  555  vim pod.yml
+  556  kubectl apply -f pod.yml 
+  557  vim pod.yml
+  558  rm -rf pod.yml 
+  559  vim pod.yml
+  560  kubectl apply -f pod.yml 
+  561  kubectl expose --help
+  562  kubectl expose pod --type=Nodeport --port=80 
+  563  kubectl get pods
+  564  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  565  kubectl get svc
+  566  vim pod.yml
+  567  vim pod.yml
+  568  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  569  kubectl apply -f pod.yml 
+  570  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  571  kubectl expose pod nginx-pod --type=NodePort --port=80 
+  572  minikube ip
+  573  kubectl get svc
+  574  history
+  575  kubectl port-forward nginx-pod 80:80
+  576  kubectl get svc
+  577  minikube ip
+  578  kubectl get cr
+  579  kubectl get custom
+  580  kubectl get customresource
+  581  kubectl get custom-resource
+  582  cat history >> history.txt
+  583  history >> history.txt
+  169  cd ..
+  170  ls
+  171  cd
+  172  ls
+  173  mv storage-class.yaml /d
+  174  cd /
+  175  ls
+  176  cd d
+  177  ls
+  178  mv storage-class.yaml /"devops project"/
+  179  mv storage-class.yaml /"devops project"
+  180  cd "devops project"/
+  181  cd k8s_yml/
+  182  ls
+  183  clear
+  184  ls
+  185  kubectl.exe apply -f storage-class.yaml 
+  186  kubectl.exe get pvc
+  187  kubectl.exe get sc
+  188  kubectl.exe delete sc all
+  189  kubectl.exe delete sc --all
+  190  kubectl.exe apply -f pvc.yaml 
+  191  kubectl.exe get pvc
+  192  minikube ssh
+  193  minikube ssh
+  194  kubectl.exe apply -f pv.yaml 
+  195  kubectl.exe apply -f pv.yaml 
+  196  kubectl.exe apply -f pv.yaml 
+  197  kubectl.exe get pv
+  198  kubectl.exe apply -f pv.yaml 
+  199  kubectl.exe get pv
+  200  ls
+  201  cp mysql.yaml mysql-pvc-pod.yaml
+  202  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  203  kubectl.exe apply get pods
+  204  kubectl.exe get pods
+  205  kubectl.exe get pods
+  206  kubectl.exe get pods
+  207  kubectl.exe get pods
+  208  kubectl.exe get pods
+  209  kubectl.exe get pods
+  210  kubectl.exe get pods
+  211  kubectl.exe get pods
+  212  kubectl.exe get pods
+  213  kubectl.exe get pods
+  214  kubectl.exe get pods
+  215  kubectl.exe get pods
+  216  kubectl.exe delete pod all
+  217  kubectl.exe delete pod --all
+  218  minukube ssh
+  219  minikube ssh
+  220  minikube ssh
+  221  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  222  kubectl.exe get pods
+  223  kubectl.exe get pods
+  224  kubectl.exe get pods
+  225  kubectl.exe get pods
+  226  kubectl.exe get pods
+  227  kubectl.exe get pods
+  228  kubectl.exe get pods
+  229  kubectl.exe get pods
+  230  ls
+  231  kubectl.exe apply -f mysql-secret.yaml 
+  232  kubectl.exe delete pod --all
+  233  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  234  kubectl.exe get pods
+  235  kubectl.exe get pods
+  236  kubectl.exe get pods
+  237  kubectl.exe get pods
+  238  kubectl.exe get pods
+  239  kubectl.exe get pods
+  240  kubectl.exe get pods
+  241  kubectl.exe get pods
+  242  kubectl.exe get pods
+  243  kubectl.exe get pods
+  244  kubectl.exe get pods
+  245  minikube ssh
+  246  kubectl delete pods --all
+  247  kubectl delete pvc --all
+  248  kubectl delete pv --all
+  249  minikube ssh
+  250  kubectl get pv 
+  251  kubectl get pvc
+  252  minikube start --driver=virtualbox
+  253  minikube delete
+  254  minikube start --driver=virtualbox
+  255  minikube delete
+  256  minikube start --driver=virtualbox
+  257  kubectl get pods
+  258  minikube dashboard
+  259  minikube start --driver=virtualbox
+  260  minikube dashboard
+  261  minikube start --driver=virtualbox
+  262  minikube stop
+  263  minikube start
+  264  minikube dashboard
+  265  minikube start
+  266  minikube stop
+  267  minikube start
+  268  minikube ssh
+  269  kubectl get pods
+  270  kubectl get all
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  minikube delete
+  275  clear
+  276  minikube start
+  277  minikube start
+  278  minikube ssh
+  279  ls
+  280  cd /
+  281  cd d
+  282  ls
+  283  cd "devops project"/
+  284  LS
+  285  CD k8s_yml/
+  286  cd k8s_yml/
+  287  ls
+  288  kubectl get pods
+  289  kubectl
+  290  minikube kubectl get pods
+  291  kubectl get pods
+  292  alias
+  293  alias --help
+  294  alias kubectl = 'minikube kubectl'
+  295  set alias
+  296  set alias --help
+  297  alias -p
+  298  ls
+  299  cd
+  300  ls
+  301  ls -a
+  302  cd c
+  303  cd /
+  304  cd c
+  305  cd Program
+  306  pwd
+  307  cd "Program Files"
+  308  cd Git/
+  309  ls
+  310  cd etc/
+  311  ls
+  312  cd profile.d
+  313  ls
+  314  vim aliases.sh 
+  315  kubectl get pods
+  316  kubectl get pods
+  317  kubectl
+  318  kubectl
+  319  kubectl get pods
+  320  cd
+  321  cd /D
+  322  pwd
+  323  cd "devops project"/
+  324  cd k8s_yml/
+  325  ls
+  326  pwd
+  327  cd
+  328  pwd
+  329  cd /D/devops project/k8s_yml
+  330  cd /D/"devops project"/k8s_yml
+  331  ls
+  332  k8s
+  333  ls
+  334  minikube status
+  335  kubectl get sc
+  336  kubectl get sc -o yaml
+  337  kubectl get sc 
+  338  kubectl get sc -o yml
+  339  minikube kubectl get sc -o yml
+  340  minikube kubectl get sc --help
+  341  minikube kubectl get sc standard
+  342  minikube kubectl get sc standard -o yaml
+  343  minikube kubectl get sc standard -o yml
+  344  minikube kubectl get sc standard --help
+  345  minikube kubectl get sc standard -o yml
+  346  minikube kubectl get sc standard --output=yaml
+  347  minikube kubectl get sc standard > standard_storage_class.yaml
+  348  ls
+  349  cat standard_storage_class.yaml 
+  350  kubectl get storageclass standard -o yaml
+  351  kubectl get storageclass standard --output=yaml
+  352  kubectl get storageclass standard -o yaml
+  353  kubectl.exe get storageclass standard -o yaml
+  354  kubectl
+  355  kubectl get storageclass standard -o yaml
+  356  kubectl create --help
+  357  kubectl create namespace myspace
+  358  kubectl get ns
+  359  kubectl cluster info
+  360  kubectl cluster-info
+  361  kubectl cluster-inf
+  362  kubectl config view
+  363  kubectl config get context
+  364  kubectl config get-context
+  365  kubectl config --h
+  366  kubectl config --help
+  367  kubectl config get-context
+  368  kubectl config get-contexts
+  369  k8s
+  370  ls
+  371  kubectl apply -f pod.yml --namespace myspace
+  372  kubectl get pods
+  373  kubectl get pods -ns myspace
+  374  kubectl get pods --namespace myspace
+  375  kubectl config view
+  376  minikube stop
+  377  minikube start
+  378  minikube ip
+  379  minikube ssh
+  380  minikube ssh
+  381  minikube ssh
+  382  minikube ssh
+  383  minikube ssh
+  384  minikube ip
+  385  minikube ssh
+  386  minikube ssh
+  387  minikube ip
+  388  minikube ip
+  389  minikube ssh
+  390  minikube ssh
+  391  minikube ssh
+  392  minikube ssh
+  393  minikube ssh
+  394  minikube ssh
+  395  minikube ip
+  396  kubectl config view
+  397  kubectl config view --minify -o jsonpath='{.clusters[0].name}'
+  398  kubectl cluster-info
+  399  kubectl cluster-info dump
+  400  clear
+  401  kubectl cluster-info
+  402  kubectl get context
+  403  kubectl config view
+  404  kubectl config get-context
+  405  kubectl config get context
+  406  kubectl config 
+  407  kubectl config get-contexts
+  408  minikube ssh
+  409  minikube ssh
+  410  kubectl get --help
+  411  clear
+  412  "kubectl api-resources
+  413  kubectl api-resources
+  414  kubectl get im
+  415  kubectl get cluster-role
+  416  kubectl get cluster
+  417  kubectl get clusterrole
+  418  kubectl describe clusterrole admin
+  419  kubectl describe clusterrole cluster-admin
+  420  kubectl get clusterrolebinding
+  421  kubectl describe clusterrolebinding cluster-admin
+  422  kubectl describe clusterrole cluster-admin
+  423  kubectl get ns all
+  424  kubectl get ns --all
+  425  kubectl get ns 
+  426  kubectl create ns new
+  427  kubectl delete ns myspace
+  428  ls
+  429  k8s
+  430  ls
+  431  kubectl get ns
+  432  kubectl apply -f myrole.yaml 
+  433  kubectl get clusterrole
+  434  kubectl get clusterrole pod-listning
+  435  kubectl get clusterrole pod-listing
+  436  kubectl get role pod-listing
+  437  kubectl get role 
+  438  kubectl get role
+  439  kubectl get clusterrole 
+  440  kubectl get role -n new
+  441  kubectl get role 
+  442  kubectl get role -n new
+  443  kubectl describe role pod-listing -n new
+  444  kubectl get csr
+  445  kubectl get csr all
+  446  kubectl get csr --all
+  447  kubectl get csr --all-namespaces
+  448  kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+  449  kubectl get ns
+  450  ls
+  451  kubectl apply -f myrolebinding 
+  452  kubectl apply -f pod.yml -n new
+  453  kubectl get csr
+  454  ls
+  455  kubectl create -f subca.csr
+  456  kubectl create csr --filename=subca.csr
+  457  kubectl apply -f subca.csr
+  458  kubectl create csr subca --certificate=subca.csr
+  459  kubectl get pods --all
+  460  kubectl get pods all
+  461  kubectl get pods -n system
+  462  kubectl get ns
+  463  kubectl get pods -n kube-system
+  464  kubectl logs kube-apiserver-minikube -n kube-system
+  465  kubectl create csr subca --certificate=subca.csr
+  466  kubectl apply -f subca.csr
+  467  kubectl logs kube-apiserver-minikube -n kube-system
+  468  kubectl logs kube-apiserver-minikube -n kube-system
+  469  kubectl get events -n kube-system
+  470  kubectl get csr
+  471  kubectl get csr -o yaml 
+  472  ls
+  473  kubectl apply -f mycsr.yml 
+  474  kubectl apply -f mycsr.yml 
+  475  cat subca.csr | base64 | tr -d '\n' >> ../subca.scr
+  476   
+  477  cd ..
+  478  ;s
+  479  ls
+  480  cat subca.scr 
+  481  vim subca.scr 
+  482  mv subca.scr subca.csr
+  483  ls
+  484  vim subca.csr 
+  485  vi subca.csr 
+  486  ld
+  487  ls
+  488  rm -rf k8s_yml/mycsr.yml 
+  489  mv subca.csr k8s_yml/myscr.yaml
+  490  cd k8s_yml/
+  491  kubectl apply -f mycsr.yml 
+  492  ls
+  493  kubectl apply -f myscr.yml 
+  494  kubectl apply -f myscr.yaml 
+  495  kubectl apply -f myscr.yaml 
+  496  kubectl get csr
+  497  kubectl certificate approve example-csr
+  498  kubectl get csr example-csr -o jsonpath='{.status}'
+  499  minikube stop
+  500  minikube start
+  501  kubectl
+  502  minikube ip
+  503  curl http:// 192.168.59.104:8443
+  504  curl https:// 192.168.59.104:8443
+  505  curl https:// 192.168.59.104:6443
+  506  curl https:// 192.168.59.104:8443
+  507  kubectl get config
+  508* kubectl 
+  509  kubectl get config
+  510  kubectl get --help
+  511  kubectl api-resources
+  512  kubectl get configmaps
+  513  kubectl --help
+  514  kubectl config 
+  515  kubectl config view
+  516  K8S
+  517  k8s
+  518   curl --cert client.crt --key client.key --cacert ca.crt https://192.168.59.104:8443
+  519  kubectl get pods
+  520  kubectl get pods -n new
+  521  kubectl delete pods all -all
+  522  kubectl delete pods all --all
+  523  kubectl delete pods all
+  524  kubectl delete pods --all
+  525  kubectl delete pods --all -n new
+  526  kubectl apply -f pod.yml 
+  527  kubectl get pods 
+  528  kubectl delete pods --all -n all
+  529  kubectl delete pods --all -n -all
+  530  kubectl get pods 
+  531  kubectl delete pods --all
+  532  kubectl delete pods --all all
+  533  kubectl delete pods --all -n all
+  534* kubectl get 
+  535  kubectl api-resources
+  536  kubectl get cm
+  537  kubectl get cm -o yaml
+  538  kubectl get pods
+  539  clear
+  540  clear
+  541  kubectl get pods
+  542  vim configmap-for -nginx.yaml
+  543  vim configmap-for-nginx.yaml
+  544  kubectl apply -f configmap-for-nginx.yaml 
+  545  cat configmap-for-nginx.yaml 
+  546  rm -rf configmap-for-nginx.yaml 
+  547  vim configmap-for-nginx.yaml
+  548  kubectl apply -f configmap-for-nginx.yaml 
+  549  kubectl get configmap
+  550  kubectl describe configmap nginx-config
+  551* 
+  552  kubectl apply -f pod.yml 
+  553  vim pod.yml 
+  554  kubectl apply -f pod.yml 
+  555  vim pod.yml
+  556  kubectl apply -f pod.yml 
+  557  vim pod.yml
+  558  rm -rf pod.yml 
+  559  vim pod.yml
+  560  kubectl apply -f pod.yml 
+  561  kubectl expose --help
+  562  kubectl expose pod --type=Nodeport --port=80 
+  563  kubectl get pods
+  564  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  565  kubectl get svc
+  566  vim pod.yml
+  567  vim pod.yml
+  568  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  569  kubectl apply -f pod.yml 
+  570  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  571  kubectl expose pod nginx-pod --type=NodePort --port=80 
+  572  minikube ip
+  573  kubectl get svc
+  574  history
+  575  kubectl port-forward nginx-pod 80:80
+  576  kubectl get svc
+  577  minikube ip
+  578  kubectl get cr
+  579  kubectl get custom
+  580  kubectl get customresource
+  581  kubectl get custom-resource
+  582  cat history >> history.txt
+  583  history >> history.txt
+  584  kubectl api-resources
+  585  kubectl get cr
+  586  kubectl get crd
+  587  kubectl get crds
+  588  kubectl get cm
+  589  kubectl get cm -n all
+  590  kubectl get cm -n kube-system
+  591  kubectl get ns
+  592  kubectl get cm -n kube-system
+  593  kubectl get pods -n kube-system
+  594  minikube --help
+  595  minikube start --help
+  596  minikube stop
+  597* minikube d
+  598  minikube start --nodes=2
+  599  minikube stop
+  600  minikube start --nodes=2
+  601  kubectl get pods -n kube-system
+  602  kubectl get cm -n kube-system
+  603  minikube ssh
+  604  minikube ssh
+  605  clear
+  606  kubectl get nodes
+  607  kubectl describe nodes minikube
+  608  kubectl run mypof --image=nginx --dry-run=client
+  609  kubectl get pods
+  610  ls
+  611  kubectl run mypof --image=nginx --dry-run=client -o yaml
+  612  kubectl get pods --show-labels
+  613  kubectl get nodes --show-labels
+  614  kubectl explain pod
+  615  kubectl explain pod --help
+  616* kubectl -
+  617* kubectl explain pod 
+  618  kubectl explain pod --recursive
+  619  clear
+  620  kubectl set --help
+  621  kubectl set selector --help
+  622  kubectl --help
+  623  kubectl labe; --help
+  624  kubectl label --help
+  625  kubectl label node --help
+  626  kubectl get pods
+  627  clear
+  628  ls
+  629  kubectl apply -f rc.yaml 
+  630  kubectl scale --help
+  631  kubectl get pods
+  632  kubectl get pods
+  633  kubectl get pods
+  634  kubectl get nodes
+  635  kubectl describe pods nginx-2c9xw
+  636  kubectl describe pods nginx-2c9xw | grep -i "node"
+  637* 
+  638  kubectl taint node --help
+  639* kubectl 
+  640  kubectl delete rc --all
+  641  kubectl apply -f rc.yaml 
+  642  kubectl get pods
+  643  kubectl get pods
+  644  kubectl get pods
+  645  kubectl get pods
+  646  kubectl get pods
+  647  kubectl get pods
+  648  kubectl get pods
+  649  kubectl get pods
+  650  kubectl get pods
+  651  kubectl get pods --watch
+  652  kubectl get pods
+  653  kubectl describe pods nginx-7vwrk
+  654  kubectl describe pods nginx-2c9xw | grep -i "tolerations"
+  655  kubectl get pods
+  656  kubectl describe pods nginx-7vwrk | grep -i "toleration"
+  657   kubectl taint nodes minikube master=node:NoSchedule-
+  658   kubectl taint nodes minikube master=node:NoSchedule
+  659  kubectl describe nodes minikube
+  660   kubectl taint nodes minikube master=node:NoSchedule-
+  661  kubectl delete rc --all
+  662  kubectl apply -f rc.yaml 
+  663  kubectl get pods
+  664  kubectl get pods
+  665  kubectl get pods
+  666  kubectl describe pods nginx-55h8h
+  667  history
+  668  history >> history.txt 
+  175  ls
+  176  cd d
+  177  ls
+  178  mv storage-class.yaml /"devops project"/
+  179  mv storage-class.yaml /"devops project"
+  180  cd "devops project"/
+  181  cd k8s_yml/
+  182  ls
+  183  clear
+  184  ls
+  185  kubectl.exe apply -f storage-class.yaml 
+  186  kubectl.exe get pvc
+  187  kubectl.exe get sc
+  188  kubectl.exe delete sc all
+  189  kubectl.exe delete sc --all
+  190  kubectl.exe apply -f pvc.yaml 
+  191  kubectl.exe get pvc
+  192  minikube ssh
+  193  minikube ssh
+  194  kubectl.exe apply -f pv.yaml 
+  195  kubectl.exe apply -f pv.yaml 
+  196  kubectl.exe apply -f pv.yaml 
+  197  kubectl.exe get pv
+  198  kubectl.exe apply -f pv.yaml 
+  199  kubectl.exe get pv
+  200  ls
+  201  cp mysql.yaml mysql-pvc-pod.yaml
+  202  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  203  kubectl.exe apply get pods
+  204  kubectl.exe get pods
+  205  kubectl.exe get pods
+  206  kubectl.exe get pods
+  207  kubectl.exe get pods
+  208  kubectl.exe get pods
+  209  kubectl.exe get pods
+  210  kubectl.exe get pods
+  211  kubectl.exe get pods
+  212  kubectl.exe get pods
+  213  kubectl.exe get pods
+  214  kubectl.exe get pods
+  215  kubectl.exe get pods
+  216  kubectl.exe delete pod all
+  217  kubectl.exe delete pod --all
+  218  minukube ssh
+  219  minikube ssh
+  220  minikube ssh
+  221  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  222  kubectl.exe get pods
+  223  kubectl.exe get pods
+  224  kubectl.exe get pods
+  225  kubectl.exe get pods
+  226  kubectl.exe get pods
+  227  kubectl.exe get pods
+  228  kubectl.exe get pods
+  229  kubectl.exe get pods
+  230  ls
+  231  kubectl.exe apply -f mysql-secret.yaml 
+  232  kubectl.exe delete pod --all
+  233  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  234  kubectl.exe get pods
+  235  kubectl.exe get pods
+  236  kubectl.exe get pods
+  237  kubectl.exe get pods
+  238  kubectl.exe get pods
+  239  kubectl.exe get pods
+  240  kubectl.exe get pods
+  241  kubectl.exe get pods
+  242  kubectl.exe get pods
+  243  kubectl.exe get pods
+  244  kubectl.exe get pods
+  245  minikube ssh
+  246  kubectl delete pods --all
+  247  kubectl delete pvc --all
+  248  kubectl delete pv --all
+  249  minikube ssh
+  250  kubectl get pv 
+  251  kubectl get pvc
+  252  minikube start --driver=virtualbox
+  253  minikube delete
+  254  minikube start --driver=virtualbox
+  255  minikube delete
+  256  minikube start --driver=virtualbox
+  257  kubectl get pods
+  258  minikube dashboard
+  259  minikube start --driver=virtualbox
+  260  minikube dashboard
+  261  minikube start --driver=virtualbox
+  262  minikube stop
+  263  minikube start
+  264  minikube dashboard
+  265  minikube start
+  266  minikube stop
+  267  minikube start
+  268  minikube ssh
+  269  kubectl get pods
+  270  kubectl get all
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  minikube delete
+  275  clear
+  276  minikube start
+  277  minikube start
+  278  minikube ssh
+  279  ls
+  280  cd /
+  281  cd d
+  282  ls
+  283  cd "devops project"/
+  284  LS
+  285  CD k8s_yml/
+  286  cd k8s_yml/
+  287  ls
+  288  kubectl get pods
+  289  kubectl
+  290  minikube kubectl get pods
+  291  kubectl get pods
+  292  alias
+  293  alias --help
+  294  alias kubectl = 'minikube kubectl'
+  295  set alias
+  296  set alias --help
+  297  alias -p
+  298  ls
+  299  cd
+  300  ls
+  301  ls -a
+  302  cd c
+  303  cd /
+  304  cd c
+  305  cd Program
+  306  pwd
+  307  cd "Program Files"
+  308  cd Git/
+  309  ls
+  310  cd etc/
+  311  ls
+  312  cd profile.d
+  313  ls
+  314  vim aliases.sh 
+  315  kubectl get pods
+  316  kubectl get pods
+  317  kubectl
+  318  kubectl
+  319  kubectl get pods
+  320  cd
+  321  cd /D
+  322  pwd
+  323  cd "devops project"/
+  324  cd k8s_yml/
+  325  ls
+  326  pwd
+  327  cd
+  328  pwd
+  329  cd /D/devops project/k8s_yml
+  330  cd /D/"devops project"/k8s_yml
+  331  ls
+  332  k8s
+  333  ls
+  334  minikube status
+  335  kubectl get sc
+  336  kubectl get sc -o yaml
+  337  kubectl get sc 
+  338  kubectl get sc -o yml
+  339  minikube kubectl get sc -o yml
+  340  minikube kubectl get sc --help
+  341  minikube kubectl get sc standard
+  342  minikube kubectl get sc standard -o yaml
+  343  minikube kubectl get sc standard -o yml
+  344  minikube kubectl get sc standard --help
+  345  minikube kubectl get sc standard -o yml
+  346  minikube kubectl get sc standard --output=yaml
+  347  minikube kubectl get sc standard > standard_storage_class.yaml
+  348  ls
+  349  cat standard_storage_class.yaml 
+  350  kubectl get storageclass standard -o yaml
+  351  kubectl get storageclass standard --output=yaml
+  352  kubectl get storageclass standard -o yaml
+  353  kubectl.exe get storageclass standard -o yaml
+  354  kubectl
+  355  kubectl get storageclass standard -o yaml
+  356  kubectl create --help
+  357  kubectl create namespace myspace
+  358  kubectl get ns
+  359  kubectl cluster info
+  360  kubectl cluster-info
+  361  kubectl cluster-inf
+  362  kubectl config view
+  363  kubectl config get context
+  364  kubectl config get-context
+  365  kubectl config --h
+  366  kubectl config --help
+  367  kubectl config get-context
+  368  kubectl config get-contexts
+  369  k8s
+  370  ls
+  371  kubectl apply -f pod.yml --namespace myspace
+  372  kubectl get pods
+  373  kubectl get pods -ns myspace
+  374  kubectl get pods --namespace myspace
+  375  kubectl config view
+  376  minikube stop
+  377  minikube start
+  378  minikube ip
+  379  minikube ssh
+  380  minikube ssh
+  381  minikube ssh
+  382  minikube ssh
+  383  minikube ssh
+  384  minikube ip
+  385  minikube ssh
+  386  minikube ssh
+  387  minikube ip
+  388  minikube ip
+  389  minikube ssh
+  390  minikube ssh
+  391  minikube ssh
+  392  minikube ssh
+  393  minikube ssh
+  394  minikube ssh
+  395  minikube ip
+  396  kubectl config view
+  397  kubectl config view --minify -o jsonpath='{.clusters[0].name}'
+  398  kubectl cluster-info
+  399  kubectl cluster-info dump
+  400  clear
+  401  kubectl cluster-info
+  402  kubectl get context
+  403  kubectl config view
+  404  kubectl config get-context
+  405  kubectl config get context
+  406  kubectl config 
+  407  kubectl config get-contexts
+  408  minikube ssh
+  409  minikube ssh
+  410  kubectl get --help
+  411  clear
+  412  "kubectl api-resources
+  413  kubectl api-resources
+  414  kubectl get im
+  415  kubectl get cluster-role
+  416  kubectl get cluster
+  417  kubectl get clusterrole
+  418  kubectl describe clusterrole admin
+  419  kubectl describe clusterrole cluster-admin
+  420  kubectl get clusterrolebinding
+  421  kubectl describe clusterrolebinding cluster-admin
+  422  kubectl describe clusterrole cluster-admin
+  423  kubectl get ns all
+  424  kubectl get ns --all
+  425  kubectl get ns 
+  426  kubectl create ns new
+  427  kubectl delete ns myspace
+  428  ls
+  429  k8s
+  430  ls
+  431  kubectl get ns
+  432  kubectl apply -f myrole.yaml 
+  433  kubectl get clusterrole
+  434  kubectl get clusterrole pod-listning
+  435  kubectl get clusterrole pod-listing
+  436  kubectl get role pod-listing
+  437  kubectl get role 
+  438  kubectl get role
+  439  kubectl get clusterrole 
+  440  kubectl get role -n new
+  441  kubectl get role 
+  442  kubectl get role -n new
+  443  kubectl describe role pod-listing -n new
+  444  kubectl get csr
+  445  kubectl get csr all
+  446  kubectl get csr --all
+  447  kubectl get csr --all-namespaces
+  448  kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+  449  kubectl get ns
+  450  ls
+  451  kubectl apply -f myrolebinding 
+  452  kubectl apply -f pod.yml -n new
+  453  kubectl get csr
+  454  ls
+  455  kubectl create -f subca.csr
+  456  kubectl create csr --filename=subca.csr
+  457  kubectl apply -f subca.csr
+  458  kubectl create csr subca --certificate=subca.csr
+  459  kubectl get pods --all
+  460  kubectl get pods all
+  461  kubectl get pods -n system
+  462  kubectl get ns
+  463  kubectl get pods -n kube-system
+  464  kubectl logs kube-apiserver-minikube -n kube-system
+  465  kubectl create csr subca --certificate=subca.csr
+  466  kubectl apply -f subca.csr
+  467  kubectl logs kube-apiserver-minikube -n kube-system
+  468  kubectl logs kube-apiserver-minikube -n kube-system
+  469  kubectl get events -n kube-system
+  470  kubectl get csr
+  471  kubectl get csr -o yaml 
+  472  ls
+  473  kubectl apply -f mycsr.yml 
+  474  kubectl apply -f mycsr.yml 
+  475  cat subca.csr | base64 | tr -d '\n' >> ../subca.scr
+  476   
+  477  cd ..
+  478  ;s
+  479  ls
+  480  cat subca.scr 
+  481  vim subca.scr 
+  482  mv subca.scr subca.csr
+  483  ls
+  484  vim subca.csr 
+  485  vi subca.csr 
+  486  ld
+  487  ls
+  488  rm -rf k8s_yml/mycsr.yml 
+  489  mv subca.csr k8s_yml/myscr.yaml
+  490  cd k8s_yml/
+  491  kubectl apply -f mycsr.yml 
+  492  ls
+  493  kubectl apply -f myscr.yml 
+  494  kubectl apply -f myscr.yaml 
+  495  kubectl apply -f myscr.yaml 
+  496  kubectl get csr
+  497  kubectl certificate approve example-csr
+  498  kubectl get csr example-csr -o jsonpath='{.status}'
+  499  minikube stop
+  500  minikube start
+  501  kubectl
+  502  minikube ip
+  503  curl http:// 192.168.59.104:8443
+  504  curl https:// 192.168.59.104:8443
+  505  curl https:// 192.168.59.104:6443
+  506  curl https:// 192.168.59.104:8443
+  507  kubectl get config
+  508* kubectl 
+  509  kubectl get config
+  510  kubectl get --help
+  511  kubectl api-resources
+  512  kubectl get configmaps
+  513  kubectl --help
+  514  kubectl config 
+  515  kubectl config view
+  516  K8S
+  517  k8s
+  518   curl --cert client.crt --key client.key --cacert ca.crt https://192.168.59.104:8443
+  519  kubectl get pods
+  520  kubectl get pods -n new
+  521  kubectl delete pods all -all
+  522  kubectl delete pods all --all
+  523  kubectl delete pods all
+  524  kubectl delete pods --all
+  525  kubectl delete pods --all -n new
+  526  kubectl apply -f pod.yml 
+  527  kubectl get pods 
+  528  kubectl delete pods --all -n all
+  529  kubectl delete pods --all -n -all
+  530  kubectl get pods 
+  531  kubectl delete pods --all
+  532  kubectl delete pods --all all
+  533  kubectl delete pods --all -n all
+  534* kubectl get 
+  535  kubectl api-resources
+  536  kubectl get cm
+  537  kubectl get cm -o yaml
+  538  kubectl get pods
+  539  clear
+  540  clear
+  541  kubectl get pods
+  542  vim configmap-for -nginx.yaml
+  543  vim configmap-for-nginx.yaml
+  544  kubectl apply -f configmap-for-nginx.yaml 
+  545  cat configmap-for-nginx.yaml 
+  546  rm -rf configmap-for-nginx.yaml 
+  547  vim configmap-for-nginx.yaml
+  548  kubectl apply -f configmap-for-nginx.yaml 
+  549  kubectl get configmap
+  550  kubectl describe configmap nginx-config
+  551* 
+  552  kubectl apply -f pod.yml 
+  553  vim pod.yml 
+  554  kubectl apply -f pod.yml 
+  555  vim pod.yml
+  556  kubectl apply -f pod.yml 
+  557  vim pod.yml
+  558  rm -rf pod.yml 
+  559  vim pod.yml
+  560  kubectl apply -f pod.yml 
+  561  kubectl expose --help
+  562  kubectl expose pod --type=Nodeport --port=80 
+  563  kubectl get pods
+  564  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  565  kubectl get svc
+  566  vim pod.yml
+  567  vim pod.yml
+  568  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  569  kubectl apply -f pod.yml 
+  570  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  571  kubectl expose pod nginx-pod --type=NodePort --port=80 
+  572  minikube ip
+  573  kubectl get svc
+  574  history
+  575  kubectl port-forward nginx-pod 80:80
+  576  kubectl get svc
+  577  minikube ip
+  578  kubectl get cr
+  579  kubectl get custom
+  580  kubectl get customresource
+  581  kubectl get custom-resource
+  582  cat history >> history.txt
+  583  history >> history.txt
+  584  kubectl api-resources
+  585  kubectl get cr
+  586  kubectl get crd
+  587  kubectl get crds
+  588  kubectl get cm
+  589  kubectl get cm -n all
+  590  kubectl get cm -n kube-system
+  591  kubectl get ns
+  592  kubectl get cm -n kube-system
+  593  kubectl get pods -n kube-system
+  594  minikube --help
+  595  minikube start --help
+  596  minikube stop
+  597* minikube d
+  598  minikube start --nodes=2
+  599  minikube stop
+  600  minikube start --nodes=2
+  601  kubectl get pods -n kube-system
+  602  kubectl get cm -n kube-system
+  603  minikube ssh
+  604  minikube ssh
+  605  clear
+  606  kubectl get nodes
+  607  kubectl describe nodes minikube
+  608  kubectl run mypof --image=nginx --dry-run=client
+  609  kubectl get pods
+  610  ls
+  611  kubectl run mypof --image=nginx --dry-run=client -o yaml
+  612  kubectl get pods --show-labels
+  613  kubectl get nodes --show-labels
+  614  kubectl explain pod
+  615  kubectl explain pod --help
+  616* kubectl -
+  617* kubectl explain pod 
+  618  kubectl explain pod --recursive
+  619  clear
+  620  kubectl set --help
+  621  kubectl set selector --help
+  622  kubectl --help
+  623  kubectl labe; --help
+  624  kubectl label --help
+  625  kubectl label node --help
+  626  kubectl get pods
+  627  clear
+  628  ls
+  629  kubectl apply -f rc.yaml 
+  630  kubectl scale --help
+  631  kubectl get pods
+  632  kubectl get pods
+  633  kubectl get pods
+  634  kubectl get nodes
+  635  kubectl describe pods nginx-2c9xw
+  636  kubectl describe pods nginx-2c9xw | grep -i "node"
+  637* 
+  638  kubectl taint node --help
+  639* kubectl 
+  640  kubectl delete rc --all
+  641  kubectl apply -f rc.yaml 
+  642  kubectl get pods
+  643  kubectl get pods
+  644  kubectl get pods
+  645  kubectl get pods
+  646  kubectl get pods
+  647  kubectl get pods
+  648  kubectl get pods
+  649  kubectl get pods
+  650  kubectl get pods
+  651  kubectl get pods --watch
+  652  kubectl get pods
+  653  kubectl describe pods nginx-7vwrk
+  654  kubectl describe pods nginx-2c9xw | grep -i "tolerations"
+  655  kubectl get pods
+  656  kubectl describe pods nginx-7vwrk | grep -i "toleration"
+  657   kubectl taint nodes minikube master=node:NoSchedule-
+  658   kubectl taint nodes minikube master=node:NoSchedule
+  659  kubectl describe nodes minikube
+  660   kubectl taint nodes minikube master=node:NoSchedule-
+  661  kubectl delete rc --all
+  662  kubectl apply -f rc.yaml 
+  663  kubectl get pods
+  664  kubectl get pods
+  665  kubectl get pods
+  666  kubectl describe pods nginx-55h8h
+  667  history
+  668  history >> history.txt 
+  669  kubectl get pods
+  670   kubectl taint nodes minikube master=node:NoExecute
+  671  kubectl describe pods nginx-55h8h
+  672  kubectl get pods
+  673   kubectl taint nodes minikube master=node:NoExecute-
+  674  history >> history.txt
+  228  kubectl.exe get pods
+  229  kubectl.exe get pods
+  230  ls
+  231  kubectl.exe apply -f mysql-secret.yaml 
+  232  kubectl.exe delete pod --all
+  233  kubectl.exe apply -f mysql-pvc-pod.yaml 
+  234  kubectl.exe get pods
+  235  kubectl.exe get pods
+  236  kubectl.exe get pods
+  237  kubectl.exe get pods
+  238  kubectl.exe get pods
+  239  kubectl.exe get pods
+  240  kubectl.exe get pods
+  241  kubectl.exe get pods
+  242  kubectl.exe get pods
+  243  kubectl.exe get pods
+  244  kubectl.exe get pods
+  245  minikube ssh
+  246  kubectl delete pods --all
+  247  kubectl delete pvc --all
+  248  kubectl delete pv --all
+  249  minikube ssh
+  250  kubectl get pv 
+  251  kubectl get pvc
+  252  minikube start --driver=virtualbox
+  253  minikube delete
+  254  minikube start --driver=virtualbox
+  255  minikube delete
+  256  minikube start --driver=virtualbox
+  257  kubectl get pods
+  258  minikube dashboard
+  259  minikube start --driver=virtualbox
+  260  minikube dashboard
+  261  minikube start --driver=virtualbox
+  262  minikube stop
+  263  minikube start
+  264  minikube dashboard
+  265  minikube start
+  266  minikube stop
+  267  minikube start
+  268  minikube ssh
+  269  kubectl get pods
+  270  kubectl get all
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  minikube delete
+  275  clear
+  276  minikube start
+  277  minikube start
+  278  minikube ssh
+  279  ls
+  280  cd /
+  281  cd d
+  282  ls
+  283  cd "devops project"/
+  284  LS
+  285  CD k8s_yml/
+  286  cd k8s_yml/
+  287  ls
+  288  kubectl get pods
+  289  kubectl
+  290  minikube kubectl get pods
+  291  kubectl get pods
+  292  alias
+  293  alias --help
+  294  alias kubectl = 'minikube kubectl'
+  295  set alias
+  296  set alias --help
+  297  alias -p
+  298  ls
+  299  cd
+  300  ls
+  301  ls -a
+  302  cd c
+  303  cd /
+  304  cd c
+  305  cd Program
+  306  pwd
+  307  cd "Program Files"
+  308  cd Git/
+  309  ls
+  310  cd etc/
+  311  ls
+  312  cd profile.d
+  313  ls
+  314  vim aliases.sh 
+  315  kubectl get pods
+  316  kubectl get pods
+  317  kubectl
+  318  kubectl
+  319  kubectl get pods
+  320  cd
+  321  cd /D
+  322  pwd
+  323  cd "devops project"/
+  324  cd k8s_yml/
+  325  ls
+  326  pwd
+  327  cd
+  328  pwd
+  329  cd /D/devops project/k8s_yml
+  330  cd /D/"devops project"/k8s_yml
+  331  ls
+  332  k8s
+  333  ls
+  334  minikube status
+  335  kubectl get sc
+  336  kubectl get sc -o yaml
+  337  kubectl get sc 
+  338  kubectl get sc -o yml
+  339  minikube kubectl get sc -o yml
+  340  minikube kubectl get sc --help
+  341  minikube kubectl get sc standard
+  342  minikube kubectl get sc standard -o yaml
+  343  minikube kubectl get sc standard -o yml
+  344  minikube kubectl get sc standard --help
+  345  minikube kubectl get sc standard -o yml
+  346  minikube kubectl get sc standard --output=yaml
+  347  minikube kubectl get sc standard > standard_storage_class.yaml
+  348  ls
+  349  cat standard_storage_class.yaml 
+  350  kubectl get storageclass standard -o yaml
+  351  kubectl get storageclass standard --output=yaml
+  352  kubectl get storageclass standard -o yaml
+  353  kubectl.exe get storageclass standard -o yaml
+  354  kubectl
+  355  kubectl get storageclass standard -o yaml
+  356  kubectl create --help
+  357  kubectl create namespace myspace
+  358  kubectl get ns
+  359  kubectl cluster info
+  360  kubectl cluster-info
+  361  kubectl cluster-inf
+  362  kubectl config view
+  363  kubectl config get context
+  364  kubectl config get-context
+  365  kubectl config --h
+  366  kubectl config --help
+  367  kubectl config get-context
+  368  kubectl config get-contexts
+  369  k8s
+  370  ls
+  371  kubectl apply -f pod.yml --namespace myspace
+  372  kubectl get pods
+  373  kubectl get pods -ns myspace
+  374  kubectl get pods --namespace myspace
+  375  kubectl config view
+  376  minikube stop
+  377  minikube start
+  378  minikube ip
+  379  minikube ssh
+  380  minikube ssh
+  381  minikube ssh
+  382  minikube ssh
+  383  minikube ssh
+  384  minikube ip
+  385  minikube ssh
+  386  minikube ssh
+  387  minikube ip
+  388  minikube ip
+  389  minikube ssh
+  390  minikube ssh
+  391  minikube ssh
+  392  minikube ssh
+  393  minikube ssh
+  394  minikube ssh
+  395  minikube ip
+  396  kubectl config view
+  397  kubectl config view --minify -o jsonpath='{.clusters[0].name}'
+  398  kubectl cluster-info
+  399  kubectl cluster-info dump
+  400  clear
+  401  kubectl cluster-info
+  402  kubectl get context
+  403  kubectl config view
+  404  kubectl config get-context
+  405  kubectl config get context
+  406  kubectl config 
+  407  kubectl config get-contexts
+  408  minikube ssh
+  409  minikube ssh
+  410  kubectl get --help
+  411  clear
+  412  "kubectl api-resources
+  413  kubectl api-resources
+  414  kubectl get im
+  415  kubectl get cluster-role
+  416  kubectl get cluster
+  417  kubectl get clusterrole
+  418  kubectl describe clusterrole admin
+  419  kubectl describe clusterrole cluster-admin
+  420  kubectl get clusterrolebinding
+  421  kubectl describe clusterrolebinding cluster-admin
+  422  kubectl describe clusterrole cluster-admin
+  423  kubectl get ns all
+  424  kubectl get ns --all
+  425  kubectl get ns 
+  426  kubectl create ns new
+  427  kubectl delete ns myspace
+  428  ls
+  429  k8s
+  430  ls
+  431  kubectl get ns
+  432  kubectl apply -f myrole.yaml 
+  433  kubectl get clusterrole
+  434  kubectl get clusterrole pod-listning
+  435  kubectl get clusterrole pod-listing
+  436  kubectl get role pod-listing
+  437  kubectl get role 
+  438  kubectl get role
+  439  kubectl get clusterrole 
+  440  kubectl get role -n new
+  441  kubectl get role 
+  442  kubectl get role -n new
+  443  kubectl describe role pod-listing -n new
+  444  kubectl get csr
+  445  kubectl get csr all
+  446  kubectl get csr --all
+  447  kubectl get csr --all-namespaces
+  448  kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+  449  kubectl get ns
+  450  ls
+  451  kubectl apply -f myrolebinding 
+  452  kubectl apply -f pod.yml -n new
+  453  kubectl get csr
+  454  ls
+  455  kubectl create -f subca.csr
+  456  kubectl create csr --filename=subca.csr
+  457  kubectl apply -f subca.csr
+  458  kubectl create csr subca --certificate=subca.csr
+  459  kubectl get pods --all
+  460  kubectl get pods all
+  461  kubectl get pods -n system
+  462  kubectl get ns
+  463  kubectl get pods -n kube-system
+  464  kubectl logs kube-apiserver-minikube -n kube-system
+  465  kubectl create csr subca --certificate=subca.csr
+  466  kubectl apply -f subca.csr
+  467  kubectl logs kube-apiserver-minikube -n kube-system
+  468  kubectl logs kube-apiserver-minikube -n kube-system
+  469  kubectl get events -n kube-system
+  470  kubectl get csr
+  471  kubectl get csr -o yaml 
+  472  ls
+  473  kubectl apply -f mycsr.yml 
+  474  kubectl apply -f mycsr.yml 
+  475  cat subca.csr | base64 | tr -d '\n' >> ../subca.scr
+  476   
+  477  cd ..
+  478  ;s
+  479  ls
+  480  cat subca.scr 
+  481  vim subca.scr 
+  482  mv subca.scr subca.csr
+  483  ls
+  484  vim subca.csr 
+  485  vi subca.csr 
+  486  ld
+  487  ls
+  488  rm -rf k8s_yml/mycsr.yml 
+  489  mv subca.csr k8s_yml/myscr.yaml
+  490  cd k8s_yml/
+  491  kubectl apply -f mycsr.yml 
+  492  ls
+  493  kubectl apply -f myscr.yml 
+  494  kubectl apply -f myscr.yaml 
+  495  kubectl apply -f myscr.yaml 
+  496  kubectl get csr
+  497  kubectl certificate approve example-csr
+  498  kubectl get csr example-csr -o jsonpath='{.status}'
+  499  minikube stop
+  500  minikube start
+  501  kubectl
+  502  minikube ip
+  503  curl http:// 192.168.59.104:8443
+  504  curl https:// 192.168.59.104:8443
+  505  curl https:// 192.168.59.104:6443
+  506  curl https:// 192.168.59.104:8443
+  507  kubectl get config
+  508* kubectl 
+  509  kubectl get config
+  510  kubectl get --help
+  511  kubectl api-resources
+  512  kubectl get configmaps
+  513  kubectl --help
+  514  kubectl config 
+  515  kubectl config view
+  516  K8S
+  517  k8s
+  518   curl --cert client.crt --key client.key --cacert ca.crt https://192.168.59.104:8443
+  519  kubectl get pods
+  520  kubectl get pods -n new
+  521  kubectl delete pods all -all
+  522  kubectl delete pods all --all
+  523  kubectl delete pods all
+  524  kubectl delete pods --all
+  525  kubectl delete pods --all -n new
+  526  kubectl apply -f pod.yml 
+  527  kubectl get pods 
+  528  kubectl delete pods --all -n all
+  529  kubectl delete pods --all -n -all
+  530  kubectl get pods 
+  531  kubectl delete pods --all
+  532  kubectl delete pods --all all
+  533  kubectl delete pods --all -n all
+  534* kubectl get 
+  535  kubectl api-resources
+  536  kubectl get cm
+  537  kubectl get cm -o yaml
+  538  kubectl get pods
+  539  clear
+  540  clear
+  541  kubectl get pods
+  542  vim configmap-for -nginx.yaml
+  543  vim configmap-for-nginx.yaml
+  544  kubectl apply -f configmap-for-nginx.yaml 
+  545  cat configmap-for-nginx.yaml 
+  546  rm -rf configmap-for-nginx.yaml 
+  547  vim configmap-for-nginx.yaml
+  548  kubectl apply -f configmap-for-nginx.yaml 
+  549  kubectl get configmap
+  550  kubectl describe configmap nginx-config
+  551* 
+  552  kubectl apply -f pod.yml 
+  553  vim pod.yml 
+  554  kubectl apply -f pod.yml 
+  555  vim pod.yml
+  556  kubectl apply -f pod.yml 
+  557  vim pod.yml
+  558  rm -rf pod.yml 
+  559  vim pod.yml
+  560  kubectl apply -f pod.yml 
+  561  kubectl expose --help
+  562  kubectl expose pod --type=Nodeport --port=80 
+  563  kubectl get pods
+  564  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  565  kubectl get svc
+  566  vim pod.yml
+  567  vim pod.yml
+  568  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  569  kubectl apply -f pod.yml 
+  570  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  571  kubectl expose pod nginx-pod --type=NodePort --port=80 
+  572  minikube ip
+  573  kubectl get svc
+  574  history
+  575  kubectl port-forward nginx-pod 80:80
+  576  kubectl get svc
+  577  minikube ip
+  578  kubectl get cr
+  579  kubectl get custom
+  580  kubectl get customresource
+  581  kubectl get custom-resource
+  582  cat history >> history.txt
+  583  history >> history.txt
+  584  kubectl api-resources
+  585  kubectl get cr
+  586  kubectl get crd
+  587  kubectl get crds
+  588  kubectl get cm
+  589  kubectl get cm -n all
+  590  kubectl get cm -n kube-system
+  591  kubectl get ns
+  592  kubectl get cm -n kube-system
+  593  kubectl get pods -n kube-system
+  594  minikube --help
+  595  minikube start --help
+  596  minikube stop
+  597* minikube d
+  598  minikube start --nodes=2
+  599  minikube stop
+  600  minikube start --nodes=2
+  601  kubectl get pods -n kube-system
+  602  kubectl get cm -n kube-system
+  603  minikube ssh
+  604  minikube ssh
+  605  clear
+  606  kubectl get nodes
+  607  kubectl describe nodes minikube
+  608  kubectl run mypof --image=nginx --dry-run=client
+  609  kubectl get pods
+  610  ls
+  611  kubectl run mypof --image=nginx --dry-run=client -o yaml
+  612  kubectl get pods --show-labels
+  613  kubectl get nodes --show-labels
+  614  kubectl explain pod
+  615  kubectl explain pod --help
+  616* kubectl -
+  617* kubectl explain pod 
+  618  kubectl explain pod --recursive
+  619  clear
+  620  kubectl set --help
+  621  kubectl set selector --help
+  622  kubectl --help
+  623  kubectl labe; --help
+  624  kubectl label --help
+  625  kubectl label node --help
+  626  kubectl get pods
+  627  clear
+  628  ls
+  629  kubectl apply -f rc.yaml 
+  630  kubectl scale --help
+  631  kubectl get pods
+  632  kubectl get pods
+  633  kubectl get pods
+  634  kubectl get nodes
+  635  kubectl describe pods nginx-2c9xw
+  636  kubectl describe pods nginx-2c9xw | grep -i "node"
+  637* 
+  638  kubectl taint node --help
+  639* kubectl 
+  640  kubectl delete rc --all
+  641  kubectl apply -f rc.yaml 
+  642  kubectl get pods
+  643  kubectl get pods
+  644  kubectl get pods
+  645  kubectl get pods
+  646  kubectl get pods
+  647  kubectl get pods
+  648  kubectl get pods
+  649  kubectl get pods
+  650  kubectl get pods
+  651  kubectl get pods --watch
+  652  kubectl get pods
+  653  kubectl describe pods nginx-7vwrk
+  654  kubectl describe pods nginx-2c9xw | grep -i "tolerations"
+  655  kubectl get pods
+  656  kubectl describe pods nginx-7vwrk | grep -i "toleration"
+  657   kubectl taint nodes minikube master=node:NoSchedule-
+  658   kubectl taint nodes minikube master=node:NoSchedule
+  659  kubectl describe nodes minikube
+  660   kubectl taint nodes minikube master=node:NoSchedule-
+  661  kubectl delete rc --all
+  662  kubectl apply -f rc.yaml 
+  663  kubectl get pods
+  664  kubectl get pods
+  665  kubectl get pods
+  666  kubectl describe pods nginx-55h8h
+  667  history
+  668  history >> history.txt 
+  669  kubectl get pods
+  670   kubectl taint nodes minikube master=node:NoExecute
+  671  kubectl describe pods nginx-55h8h
+  672  kubectl get pods
+  673   kubectl taint nodes minikube master=node:NoExecute-
+  674  history >> history.txt
+  675  minikube add --help
+  676  minikube --help
+  677  minikube start --nodes=3
+  678  kubectl get nodes
+  679  minikube delete
+  680  minikube start --nodes=3
+  681  minikube stop
+  682  minikube start
+  683  minikube stop
+  684  minikube start --nodes=3
+  685  minikube delete
+  686  minikube start --nodes=3 --node-memory='1024mb' --node-cpu='1'
+  687  minikube start --nodes=3 --help
+  688  minikube start --nodes=3 --help | grep -i "memory"
+  689  minikube start --nodes=3 --memory='1024mb' --cpus='1'
+  690  minikube start --nodes=3 --memory='1024mb' --cpus='2'
+  691  minikube start --nodes=3 --memory='1800mb' --cpus='2'
+  692  clear
+  693  minikube addons enable metrics-server
+  694  clear
+  695  kubectl get nodes
+  696  kubectl get podes
+  697  kubectl get pods
+  698  kubectl get pods
+  699  kubectl describe nodes minikube
+  700  minikube --help
+  701  minikube cp ==help
+  702  minikube cp --help
+  703  clear
+  704  minikube cp --help
+  705  kubectl get nodes
+  706  minikube cp pod.yml minikube-m02:/home/docker
+  707  minikube cp pod.yml minikube-m02
+  708  minikube cp pod.yml minikube-m02:/home/docker/pod.yml
+  709  minikube ssh minikube-m02
+  710  minikube-m02 ssh
+  711  minikube ssh --help
+  712  minikube ssh --nodes=minikube-m02
+  713  minikube ssh -n minikube-m02
+  714  clear
+  715  cp pod.yml ./pod-test.yml
+  716  mv pod.yml ./pod-with-config-map.yml
+  717  mv pod-test.yml pod.yml
+  718  vi pod.yml 
+  719  minikube ssh --nodes=minikube-m02
+  720  minikube cp pod.yml minikube-m02:/home/docker/pod.yml
+  721  minikube ssh --nodes=minikube-m02
+  722  minikube ssh -n minikube-m02
+  723  kubectl get pods
+  724  kubectl delete pod --all
+  725  kubectl get pods
+  726  kubectl get pods
+  727  history >> history.txt 
+"/etc/kubernetes/manifests [ run pod directly via kubelete]"
+note : via go to worker node /etc/kubernetes is conf file for kubelete means kubelete keep watching this file if any pod.yml come it lauch pod automatically
+   35  kubectl config get context
+   36  kubectl config get-context
+   37  kubectl config --h
+   38  kubectl config --help
+   39  kubectl config get-context
+   40  kubectl config get-contexts
+   41  k8s
+   42  ls
+   43  kubectl apply -f pod.yml --namespace myspace
+   44  kubectl get pods
+   45  kubectl get pods -ns myspace
+   46  kubectl get pods --namespace myspace
+   47  kubectl config view
+   48  minikube stop
+   49  minikube start
+   50  minikube ip
+   51  minikube ssh
+   52  minikube ssh
+   53  minikube ssh
+   54  minikube ssh
+   55  minikube ssh
+   56  minikube ip
+   57  minikube ssh
+   58  minikube ssh
+   59  minikube ip
+   60  minikube ip
+   61  minikube ssh
+   62  minikube ssh
+   63  minikube ssh
+   64  minikube ssh
+   65  minikube ssh
+   66  minikube ssh
+   67  minikube ip
+   68  kubectl config view
+   69  kubectl config view --minify -o jsonpath='{.clusters[0].name}'
+   70  kubectl cluster-info
+   71  kubectl cluster-info dump
+   72  clear
+   73  kubectl cluster-info
+   74  kubectl get context
+   75  kubectl config view
+   76  kubectl config get-context
+   77  kubectl config get context
+   78  kubectl config 
+   79  kubectl config get-contexts
+   80  minikube ssh
+   81  minikube ssh
+   82  kubectl get --help
+   83  clear
+   84  "kubectl api-resources
+   85  kubectl api-resources
+   86  kubectl get im
+   87  kubectl get cluster-role
+   88  kubectl get cluster
+   89  kubectl get clusterrole
+   90  kubectl describe clusterrole admin
+   91  kubectl describe clusterrole cluster-admin
+   92  kubectl get clusterrolebinding
+   93  kubectl describe clusterrolebinding cluster-admin
+   94  kubectl describe clusterrole cluster-admin
+   95  kubectl get ns all
+   96  kubectl get ns --all
+   97  kubectl get ns 
+   98  kubectl create ns new
+   99  kubectl delete ns myspace
+  100  ls
+  101  k8s
+  102  ls
+  103  kubectl get ns
+  104  kubectl apply -f myrole.yaml 
+  105  kubectl get clusterrole
+  106  kubectl get clusterrole pod-listning
+  107  kubectl get clusterrole pod-listing
+  108  kubectl get role pod-listing
+  109  kubectl get role 
+  110  kubectl get role
+  111  kubectl get clusterrole 
+  112  kubectl get role -n new
+  113  kubectl get role 
+  114  kubectl get role -n new
+  115  kubectl describe role pod-listing -n new
+  116  kubectl get csr
+  117  kubectl get csr all
+  118  kubectl get csr --all
+  119  kubectl get csr --all-namespaces
+  120  kube-apiserver --authorization-mode=Example,RBAC --other-options --more-options
+  121  kubectl get ns
+  122  ls
+  123  kubectl apply -f myrolebinding 
+  124  kubectl apply -f pod.yml -n new
+  125  kubectl get csr
+  126  ls
+  127  kubectl create -f subca.csr
+  128  kubectl create csr --filename=subca.csr
+  129  kubectl apply -f subca.csr
+  130  kubectl create csr subca --certificate=subca.csr
+  131  kubectl get pods --all
+  132  kubectl get pods all
+  133  kubectl get pods -n system
+  134  kubectl get ns
+  135  kubectl get pods -n kube-system
+  136  kubectl logs kube-apiserver-minikube -n kube-system
+  137  kubectl create csr subca --certificate=subca.csr
+  138  kubectl apply -f subca.csr
+  139  kubectl logs kube-apiserver-minikube -n kube-system
+  140  kubectl logs kube-apiserver-minikube -n kube-system
+  141  kubectl get events -n kube-system
+  142  kubectl get csr
+  143  kubectl get csr -o yaml 
+  144  ls
+  145  kubectl apply -f mycsr.yml 
+  146  kubectl apply -f mycsr.yml 
+  147  cat subca.csr | base64 | tr -d '\n' >> ../subca.scr
+  148   
+  149  cd ..
+  150  ;s
+  151  ls
+  152  cat subca.scr 
+  153  vim subca.scr 
+  154  mv subca.scr subca.csr
+  155  ls
+  156  vim subca.csr 
+  157  vi subca.csr 
+  158  ld
+  159  ls
+  160  rm -rf k8s_yml/mycsr.yml 
+  161  mv subca.csr k8s_yml/myscr.yaml
+  162  cd k8s_yml/
+  163  kubectl apply -f mycsr.yml 
+  164  ls
+  165  kubectl apply -f myscr.yml 
+  166  kubectl apply -f myscr.yaml 
+  167  kubectl apply -f myscr.yaml 
+  168  kubectl get csr
+  169  kubectl certificate approve example-csr
+  170  kubectl get csr example-csr -o jsonpath='{.status}'
+  171  minikube stop
+  172  kubectl get configmap
+  173  kubectl get pods
+  174  kubectl get nodes
+  175  kubectl get nodes
+  176  kubectl get nodes
+  177  kubectl get nodes
+  178  kubectl get nodes
+  179  kubectl get nodes
+  180  kubectl get nodes
+  181  kubectl get nodes --watch
+  182  kubectl get nodes --watch
+  183  kubectl get nodes --watch
+  184  kubectl get nodes --watch
+  185  kubectl get nodes --watch
+  186  kubectl get nodes --watch
+  187  kubectl get nodes --watch
+  188  kubectl get nodes --watch
+  189  kubectl get nodes --watch
+  190  kubectl get nodes --watch
+  191  kubectl get nodes --watch
+  192  kubectl get nodes --watch
+  193  kubectl get nodes --watch
+  194  kubectl get nodes --watch
+  195  kubectl get nodes --watch
+  196  kubectl get nodes --watch
+  197  kubectl get nodes --watch
+  198  kubectl get nodes --watch
+  199  kubectl get nodes --watch
+  200  kubectl get nodes --watch
+  201  kubectl get nodes --watch
+  202  kubectl get nodes --watch
+  203  kubectl get nodes --watch
+  204  kubectl get nodes --watch
+  205  kubectl get nodes --watch
+  206  kubectl get nodes --watch
+  207   minikube addons enable metrics-server
+  208  minikube dashboard
+  209  minikube dashboard
+  210  minikube dashboard
+  211  minikube start
+  212  kubectl
+  213  minikube ip
+  214  curl http:// 192.168.59.104:8443
+  215  curl https:// 192.168.59.104:8443
+  216  curl https:// 192.168.59.104:6443
+  217  curl https:// 192.168.59.104:8443
+  218  kubectl get config
+  219  kubectl 
+  220  kubectl get config
+  221  kubectl get --help
+  222  kubectl api-resources
+  223  kubectl get configmaps
+  224  kubectl --help
+  225  kubectl config 
+  226  kubectl config view
+  227  K8S
+  228  k8s
+  229   curl --cert client.crt --key client.key --cacert ca.crt https://192.168.59.104:8443
+  230  kubectl get pods
+  231  kubectl get pods -n new
+  232  kubectl delete pods all -all
+  233  kubectl delete pods all --all
+  234  kubectl delete pods all
+  235  kubectl delete pods --all
+  236  kubectl delete pods --all -n new
+  237  kubectl apply -f pod.yml 
+  238  kubectl get pods 
+  239  kubectl delete pods --all -n all
+  240  kubectl delete pods --all -n -all
+  241  kubectl get pods 
+  242  kubectl delete pods --all
+  243  kubectl delete pods --all all
+  244  kubectl delete pods --all -n all
+  245  kubectl get 
+  246  kubectl api-resources
+  247  kubectl get cm
+  248  kubectl get cm -o yaml
+  249  kubectl get pods
+  250  clear
+  251  clear
+  252  kubectl get pods
+  253  vim configmap-for -nginx.yaml
+  254  vim configmap-for-nginx.yaml
+  255  kubectl apply -f configmap-for-nginx.yaml 
+  256  cat configmap-for-nginx.yaml 
+  257  rm -rf configmap-for-nginx.yaml 
+  258  vim configmap-for-nginx.yaml
+  259  kubectl apply -f configmap-for-nginx.yaml 
+  260  kubectl get configmap
+  261  kubectl describe configmap nginx-config
+  262  kubectl apply -f pod.yml 
+  263  vim pod.yml 
+  264  kubectl apply -f pod.yml 
+  265  vim pod.yml
+  266  kubectl apply -f pod.yml 
+  267  vim pod.yml
+  268  rm -rf pod.yml 
+  269  vim pod.yml
+  270  kubectl apply -f pod.yml 
+  271  kubectl expose --help
+  272  kubectl expose pod --type=Nodeport --port=80 
+  273  kubectl get pods
+  274  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  275  kubectl get svc
+  276  vim pod.yml
+  277  vim pod.yml
+  278  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  279  kubectl apply -f pod.yml 
+  280  kubectl expose pod nginx-pod --type=Nodeport --port=80 
+  281  kubectl expose pod nginx-pod --type=NodePort --port=80 
+  282  minikube ip
+  283  kubectl get svc
+  284  history
+  285  kubectl port-forward nginx-pod 80:80
+  286  kubectl get svc
+  287  minikube ip
+  288  kubectl get cr
+  289  kubectl get custom
+  290  kubectl get customresource
+  291  kubectl get custom-resource
+  292  cat history >> history.txt
+  293  history >> history.txt
+  294  kubectl api-resources
+  295  kubectl get cr
+  296  kubectl get crd
+  297  kubectl get crds
+  298  kubectl get cm
+  299  kubectl get cm -n all
+  300  kubectl get cm -n kube-system
+  301  kubectl get ns
+  302  kubectl get cm -n kube-system
+  303  kubectl get pods -n kube-system
+  304  minikube --help
+  305  minikube start --help
+  306  minikube stop
+  307  minikube d
+  308  minikube start --nodes=2
+  309  minikube stop
+  310  minikube start --nodes=2
+  311  kubectl get pods -n kube-system
+  312  kubectl get cm -n kube-system
+  313  minikube ssh
+  314  minikube ssh
+  315  clear
+  316  kubectl get nodes
+  317  kubectl describe nodes minikube
+  318  kubectl run mypof --image=nginx --dry-run=client
+  319  kubectl get pods
+  320  ls
+  321  kubectl run mypof --image=nginx --dry-run=client -o yaml
+  322  kubectl get pods --show-labels
+  323  kubectl get nodes --show-labels
+  324  kubectl explain pod
+  325  kubectl explain pod --help
+  326  kubectl -
+  327  kubectl explain pod 
+  328  kubectl explain pod --recursive
+  329  clear
+  330  kubectl set --help
+  331  kubectl set selector --help
+  332  kubectl --help
+  333  kubectl labe; --help
+  334  kubectl label --help
+  335  kubectl label node --help
+  336  kubectl get pods
+  337  clear
+  338  ls
+  339  kubectl apply -f rc.yaml 
+  340  kubectl scale --help
+  341  kubectl get pods
+  342  kubectl get pods
+  343  kubectl get pods
+  344  kubectl get nodes
+  345  kubectl describe pods nginx-2c9xw
+  346  kubectl describe pods nginx-2c9xw | grep -i "node"
+  347  kubectl taint node --help
+  348  kubectl 
+  349  kubectl delete rc --all
+  350  kubectl apply -f rc.yaml 
+  351  kubectl get pods
+  352  kubectl get pods
+  353  kubectl get pods
+  354  kubectl get pods
+  355  kubectl get pods
+  356  kubectl get pods
+  357  kubectl get pods
+  358  kubectl get pods
+  359  kubectl get pods
+  360  kubectl get pods --watch
+  361  kubectl get pods
+  362  kubectl describe pods nginx-7vwrk
+  363  kubectl describe pods nginx-2c9xw | grep -i "tolerations"
+  364  kubectl get pods
+  365  kubectl describe pods nginx-7vwrk | grep -i "toleration"
+  366   kubectl taint nodes minikube master=node:NoSchedule-
+  367   kubectl taint nodes minikube master=node:NoSchedule
+  368  kubectl describe nodes minikube
+  369   kubectl taint nodes minikube master=node:NoSchedule-
+  370  kubectl delete rc --all
+  371  kubectl apply -f rc.yaml 
+  372  kubectl get pods
+  373  kubectl get pods
+  374  kubectl get pods
+  375  kubectl describe pods nginx-55h8h
+  376  history
+  377  history >> history.txt 
+  378  kubectl get pods
+  379   kubectl taint nodes minikube master=node:NoExecute
+  380  kubectl describe pods nginx-55h8h
+  381  kubectl get pods
+  382   kubectl taint nodes minikube master=node:NoExecute-
+  383  history >> history.txt
+  384  minikube add --help
+  385  minikube --help
+  386  minikube start --nodes=3
+  387  kubectl get nodes
+  388  minikube delete
+  389  minikube start --nodes=3
+  390  minikube stop
+  391  minikube start
+  392  minikube stop
+  393  minikube start --nodes=3
+  394  minikube delete
+  395  minikube start --nodes=3 --node-memory='1024mb' --node-cpu='1'
+  396  minikube start --nodes=3 --help
+  397  minikube start --nodes=3 --help | grep -i "memory"
+  398  minikube start --nodes=3 --memory='1024mb' --cpus='1'
+  399  minikube start --nodes=3 --memory='1024mb' --cpus='2'
+  400  minikube start --nodes=3 --memory='1800mb' --cpus='2'
+  401  clear
+  402  minikube addons enable metrics-server
+  403  clear
+  404  kubectl get nodes
+  405  kubectl get podes
+  406  kubectl get pods
+  407  kubectl get pods
+  408  kubectl describe nodes minikube
+  409  minikube --help
+  410  minikube cp ==help
+  411  minikube cp --help
+  412  clear
+  413  minikube cp --help
+  414  kubectl get nodes
+  415  minikube cp pod.yml minikube-m02:/home/docker
+  416  minikube cp pod.yml minikube-m02
+  417  minikube cp pod.yml minikube-m02:/home/docker/pod.yml
+  418  minikube ssh minikube-m02
+  419  minikube-m02 ssh
+  420  minikube ssh --help
+  421  minikube ssh --nodes=minikube-m02
+  422  minikube ssh -n minikube-m02
+  423  clear
+  424  cp pod.yml ./pod-test.yml
+  425  mv pod.yml ./pod-with-config-map.yml
+  426  mv pod-test.yml pod.yml
+  427  vi pod.yml 
+  428  minikube ssh --nodes=minikube-m02
+  429  minikube cp pod.yml minikube-m02:/home/docker/pod.yml
+  430  minikube ssh --nodes=minikube-m02
+  431  minikube ssh -n minikube-m02
+  432  kubectl get pods
+  433  kubectl delete pod --all
+  434  kubectl get pods
+  435  kubectl get pods
+  436  history >> history.txt 
+  437  /etc/kubernetes/manifests [ run pod directly via kubelete] >> history.txt 
+  438  /etc/kubernetes/manifests [ run pod directly via kubelete] >> history.txt
+  439  ls
+  440  cat history.txt 
+  441  "/etc/kubernetes/manifests [ run pod directly via kubelete]" >> history.txt
+  442  "/etc/kubernetes/manifests [ run pod directly via kubelete]" >> ./history.txt
+  443  cat 
+  444  cat history.txt
+  445  cat "/etc/kubernetes/manifests [ run pod directly via kubelete]" >> ./history.txt
+  446  cat history.txt
+  447  cat "/etc/kubernetes/manifests [ run pod directly via kubelete]" >> ./history.txt
+  448  cat  >> history.txt
+  449  cat history.txt
+  450  cat >> history.txt 
+  451  kubectl get pods
+  452  cp pod.yml daemonset.yml
+  453  vim daemonset.yml 
+  454  kubectl apply -f daemonset.yml
+  455  vim daemonset.yml
+  456  kubectl apply -f daemonset.yml
+  457  kubectl apply -f daemonset.yml
+  458  vim daemonset.yml
+  459  rm daemonset.yml 
+  460  ls
+  461  cp deployment.yaml daemonset.yml
+  462  vim daemonset.yml 
+  463  kubectl apply -f daemonset.yml
+  464  kubectl apply -f daemonset.yml
+  465  vim daemonset.yml 
+  466  kubectl apply -f daemonset.yml
+  467  kubectl get pods
+  468  kubectl get pods
+  469  kubectl get pods
+  470  kubectl get pods
+  471  kubectl get pods
+  472  kubectl get pods
+  473  kubectl get pods
+  474  kubectl get pods --watch
+  475  vim daemonset.yml
+  476  kubectl delete daemonSet --all
+  477  kubectl apply -f daemonset.yml
+  478  kubectl get pods
+  479  kubectl get pods
+  480  kubectl get pods --watch
+  481  kubectl rollout --help
+  482  kubectl get pods --watch
+  483  kubectl get pods
+  484  kubectl get pods
+  485  vim daemonset.yml 
+  486  kubectl get pods
+  487  kubectl describe pods jenkins-deployment-tgpss
+  488  kubectl get pods
+  489  kubectl describe pods jenkins-deployment-qpfdz
+  490  kubectl get pods
+  491  kubectl describe pods jenkins-deployment-2z8n7
+  492  minikube stop
+  493  minikube start
+  494  brew install helm
+  495  pkg
+  496  winget
+  497  winget install Helm.Helm
+  498  helm version
+  499  k8s
+  500  helm version
+  501  ls
+  502  clear
+  503  ls
+  504  mkdir workdir
+  505  cd workdir/
+  506  ls
+  507  mkdir myweb
+  508  cd myweb/
+  509  ls
+  510  clear
+  511  cd ..
+  512  helm list
+  513  cd myweb/
+  514  ls
+  515  clear
+  516  pwd
+  517  vim chart.yml
+  518  ls
+  519  cd ..
+  520  helm list
+  521  ls
+  522  cd myweb/
+  523  ls
+  524  mv chart.yml Chart.yml 
+  525  cd ..
+  526  ls
+  527  helm install myweb myweb/ 
+  528   cd myweb/
+  529  mv Chart.yml Chart.yaml 
+  530  cd ..
+  531  clear
+  532  helm install myweb myweb/ 
+  533  helm list
+  534  history >> ../../k8s_yml/history.txt 
+   27  minikube stop
+   28  minikube start
+   29  brew install helm
+   30  pkg
+   31  winget
+   32  winget install Helm.Helm
+   33  k8s
+   34  clear
+   35  kubectl get pods
+   36  kubectl delete dp all
+   37  kubectl delete deployment --all
+   38  kubectl delete deployment all
+   39  kubectl get pods
+   40  kubectl get deployment 
+   41  kubectl get deamonset
+   42  kubectl get daemonset
+   43  kubectl delete daemonset all
+   44  kubectl delete daemonset --all
+   45  kubectl get pods
+   46  kubectl get pods
+   47  kubectl get pods
+   48  kubectl get pods
+   49  kubectl get pods
+   50  kubectl get pods
+   51  kubectl get pods
+   52  kubectl get pods
+   53  kubectl get pods
+   54  kubectl get pods
+   55  kubectl get pods
+   56  kubectl get pods
+   57  kubectl get pods
+   58  clear
+   59  kubectl get daemonset
+   60  kubectl get pods
+   61  kubectl get pods
+   62  kubectl get pods
+   63  clear
+   64  choco install kubernetes-helm
+   65  kubectl get nodes
+   66  kubectl --help
+   67  kubectl label --help
+   68  kubectl get nodes
+   69  kubectl label nodes minikube app=wordpress
+   70  kubectl label nodes minikube-m02 app=wordpress
+   71  kubectl label nodes minikube-m02 app=mysql
+   72  kubectl get nodes -o wide
+   73  kubectl get nodes -o wide --show-labels
+   74  kubectl get nodes minikube -o wide --show-labels
+   75  kubectl get nodes minikube -o wide --show-labels | grep -i "app"
+   76  kubectl get nodes minikube -o wide --show-labels | grep -i "app=wordpress"
+   77  kubectl get nodes minikube -o wide --show-labels | grep  "app=wordpress"
+   78  kubectl get nodes minikube-m02 -o wide --show-labels | grep -i "app=wordpress"
+   79  kubectl label nodes minikube-m02 app=mysql
+   80  kubectl label nodes minikube-m02 app=mysql --overwrite=true
+   81  kubectl get nodes minikube-m02 -o wide --show-labels | grep -i "app=wordpress"
+   82  kubectl get nodes minikube-m02 -o wide --show-labels | grep -i "app"
+   83  ls
+   84  cat mysql.yaml 
+   85  helm list --all
+   86  helm list
+   87  k8s
+   88  cd workdir/
+   89  ls
+   90  cd umbrella-chart/
+   91  ls
+   92  cd chart
+   93  LS
+   94  LS charts
+   95  ls
+   96  ls
+   97  cd charts
+   98  ls
+   99  cd mysql-chart/
+  100  ls
+  101  cd templates/
+  102  ls
+  103  cat mysql.yaml 
+  104  vim mysql.yaml
+  105  cd ../..
+  106  ls
+  107  cd wordpress-chart/
+  108  cd templates/
+  109  ls
+  110  vim deployment_word_hostpath.yml
+  111  vim deployment_word_hostpath.yml
+  112  cd ..
+  113  cd ..
+  114  ls
+  115  cd mysql-chart/
+  116  ls
+  117  cd templates/
+  118  ls
+  119  cat mysql.yaml 
+  120  cat service_for_mysql.yaml
+  121  vim mysql.yaml 
+  122  cat mysql.yaml 
+  123  vim mysql.yaml
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd ..
+  128  cd ..
+  129  ls
+  130  cd ..
+  131  ;s
+  132  ls
+  133  clear
+  134  ls
+  135  helm list
+  136  helm list
+  137  helm uninstall myweb
+  138  helm list
+  139  helm uninstall myword
+  140  minikube ssh
+  141  minikube ssh
+  142  minikube ssh -n minikube-m02
+  143  ls
+  144  cd umbrella-chart/
+  145  cd charts
+  146  ls
+  147  helm install mysql mysql-chart/
+  148  kubectl get pods
+  149  kubectl get pods
+  150  helm install word wordpress-chart/
+  151  kubectl get pods
+  152  kubectl get svc
+  153  kubectl describe pods wordpress-6666bc475d-ck582
+  154  kubectl logs pods wordpress-6666bc475d-ck582
+  155  kubectl logs wordpress-6666bc475d-ck582
+  156  minikube ip
+  157  helm version
+  158  k8s
+  159  helm version
+  160  ls
+  161  clear
+  162  ls
+  163  mkdir workdir
+  164  cd workdir/
+  165  ls
+  166  mkdir myweb
+  167  cd myweb/
+  168  ls
+  169  clear
+  170  cd ..
+  171  helm list
+  172  cd myweb/
+  173  ls
+  174  clear
+  175  pwd
+  176  vim chart.yml
+  177  ls
+  178  cd ..
+  179  helm list
+  180  ls
+  181  cd myweb/
+  182  ls
+  183  mv chart.yml Chart.yml 
+  184  cd ..
+  185  ls
+  186  helm install myweb myweb/ 
+  187   cd myweb/
+  188  mv Chart.yml Chart.yaml 
+  189  cd ..
+  190  clear
+  191  helm install myweb myweb/ 
+  192  helm list
+  193  history >> ../../k8s_yml/history.txt 
+  194  clear
+  195  helm list
+  196  cd myweb/
+  197  ls
+  198  mkdir templates
+  199  cd templates/
+  200  pwd
+  201  cp ../../../deployment_mysql_hostpath.yaml .
+  202  rm -rf deployment_mysql_hostpath.yaml 
+  203  cp ../../../deployment_word_hostpath.yml .
+  204  cp ../../../mysql.yaml .
+  205  ls
+  206  kubectl get nodes
+  207  vim deployment_word_hostpath.yml
+  208  vim deployment_word_hostpath.yml
+  209  vim mysql.yaml
+  210  pwd
+  211  vim mysql.yaml
+  212  ls
+  213  cp ../../../mysql-secret.yaml
+  214  cp ../../../mysql-secret.yaml .
+  215  cp ../../../service_for_mysql.yaml .
+  216  cp ../../../service_for_wordpress.yaml .
+  217  ls
+  218  clear
+  219  pwd
+  220  ls
+  221  cd ..
+  222  ls
+  223  mkdir umbrella-chart
+  224  cd umbrella-chart
+  225  ls
+  226  vim Chart.yaml
+  227  ls
+  228  mkdir -p charts/mysql-chart/templates
+  229  mkdir -p charts/wordpress-chart/templates
+  230  ls
+  231  cd charts
+  232  ls
+  233  cd mysql-chart/
+  234  ls
+  235  cp ../../Chart.yaml .
+  236  ls
+  237  cp ../../../../myweb/templates/mysql.yaml 
+  238  cp ../../../../myweb/templates/mysql.yaml .
+  239  cp ../../../../myweb/templates/mysql-secret.yaml .
+  240  cd ..
+  241  ls
+  242  cd mysql-chart/
+  243  ls
+  244  mv  mysql* templates/
+  245  ls
+  246  cd ..
+  247  ls
+  248  cp ../../templates/service_for_mysql.yaml mysql-chart/templates/
+  249  cp ../../templates/deployment_word_hostpath.yml wordpress-chart/templates/
+  250  cp ../../templates/service_for_wordpress.yaml wordpress-chart/templates/
+  251  ls
+  252  cp mysql-chart/Chart.yaml wordpress-chart/
+  253  cd ..
+  254  l;s
+  255  ls
+  256  cd ..
+  257  ls
+  258  mv umbrella-chart ../
+  259  ls
+  260  cd ..
+  261  ls
+  262  clear
+  263  cd umbrella-chart/
+  264  ls
+  265  cd chart
+  266  cd charts
+  267  ls
+  268  cd mysql-chart/
+  269  ls
+  270  cd templates/
+  271  ls
+  272  cd ..
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd wordpress-chart/
+  277  ls
+  278  cd templates/
+  279  ls
+  280  cd ..
+  281  ls
+  282  cd ..
+  283  ls
+  284  cd ..
+  285  ls
+  286  cd ..
+  287  clear
+  288  ls
+  289  cd myweb/
+  290  ls
+  291  cd templates/
+  292  ls
+  293  cat deployment_word_hostpath.yml 
+  294  minikube ssh
+  295  minikube minikube-m02 ssh
+  296  minikube-m02 ssh
+  297  minikube node minikube-m02 ssh
+  298  minikube ssh minikube-m02
+  299  minikube ssh -
+  300  minikube ssh -n minikube-m02
+  301  clear
+  302  ls
+  303  cd ..
+  304  cd ..
+  305  ls
+  306  helm list
+  307  kubectl get pods
+  308  cd umbrella-chart/
+  309  ls
+  310  cat Chart.yaml 
+  311  cd chart
+  312  cd charts
+  313  ls
+  314  cd mysql-chart/
+  315  ls
+  316  cat Chart.yaml 
+  317  vim Chart.yaml
+  318  cd ..
+  319  ls
+  320  cd wordpress-chart/
+  321  vim Chart.yaml 
+  322  cd ..
+  323  ls
+  324  cd ..
+  325  ls
+  326  cd ..
+  327  ls
+  328  helm install myapp umbrella-chart/
+  329  kubectl get pods
+  330  kubectl get pods
+  331  kubectl get svc
+  332  kubectl get secret
+  333  kubectl get pods
+  334  kubectl get svc
+  335  minikube ip
+  336  ls
+  337  cd umbrella-chart/
+  338  ls
+  339  cd charts/
+  340  ls
+  341  cd mysql-chart/
+  342  cd templates/
+  343  ls
+  344  cat mysql.yaml
+  345  cat mysql-secret.yaml 
+  346  cd ..
+  347  ls
+  348  cd templates/
+  349  ls
+  350  cat service_for_mysql.yaml 
+  351  cd ..
+  352  cd ..
+  353  ls
+  354  cd wordpress-chart/templates/
+  355  ls
+  356  cat deployment_word_hostpath.yml 
+  357  cd ../../mysql-chart/templates/
+  358  ls
+  359  vim mysql.yaml 
+  360  vim mysql.yaml 
+  361  helm install myapp umbrella-chart/
+  362  cd ../../..
+  363  ls
+  364  cd ..
+  365  helm install myapp umbrella-chart/
+  366  ls
+  367  kubectl get pods
+  368  kubectl get svc
+  369  kubectl get pods
+  370  kubectl get pods
+  371  helm uninstall myapp
+  372  helm uninstall myapp
+  373  kubectl get pods
+  374  kubectl get pods
+  375  kubectl get pods
+  376  kubectl get pods
+  377  kubectl get pods
+  378  kubectl get pods --watch
+  379  kubectl get svc
+  380  kubectl get svc
+  381  kubectl get svc
+  382  kubectl get pods
+  383  kubectl get pods
+  384  kubectl get pods
+  385  kubectl get pods --watch
+  386  helm uninstall myapp
+  387  ls
+  388  helm install myapp umbrella-chart/
+  389  kubectl get pods
+  390  kubectl get pods
+  391  kubectl get pods
+  392  kubectl get pods
+  393  kubectl get nodes --show-labels
+  394  kubectl get nodes minikube-m02 --show-labels
+  395  kubectl describe pods mysql
+  396  kubectl labels nodes minikube-m02 app=mysql
+  397  kubectl label nodes minikube-m02 app=mysql
+  398  kubectl get pods
+  399  kubectl get pods
+  400  kubectl get svc
+  401  kubectl get pods
+  402  kubectl get pods
+  403  kubectl get pods
+  404  minikube ip
+  405  kubectl get svc
+  406  kubectl get svc
+  407  kubectl get svc
+  408  minikube ip
+  409  ping 192.168.59.110
+  410  kubectl logs mysql
+  411  kubectl logs wordpress-6666bc475d-p5kn8
+  412  clear
+  413  helm uninstall myapp
+  414  ls
+  415  cd umbrella-chart/
+  416  ls
+  417  cd chart
+  418  CD charts
+  419  cd charts
+  420  ls
+  421  helm install  mysql mysql-chart
+  422  kubectl get pods
+  423  cat mysql-chart/templates/mysql.yaml 
+  424  cat mysql-chart/templates/service_for_mysql.yaml 
+  425  ls
+  426  cleae
+  427  clear
+  428  helm install  myword wordpress-chart/
+  429  kubectl get pods
+  430  kubectl logs wordpress-6666bc475d-6dw4w
+  431  kubectl get svc
+  432  kubectl logs wordpress-6666bc475d-6dw4w
+  433  kubectl logs wordpress-6666bc475d-6dw4w
+  434  wp
+  435  kubectl logs wordpress-6666bc475d-6dw4w
+  436  kubectl get pods
+  437  kubectl get svc
+  438  minikube ip
+  439  helm uninstall mysql
+  440  kubectl get pods
+  441  heml uninstall mysql
+  442  helm uninstall mysql
+  443  helm uninstall mysql
+  444  helm uninstall mysql
+  445  helm uninstall mysql
+  446  helm uninstall mysql
+  447  helm uninstall mysql
+  448  helm uninstall mysql
+  449  helm list
+  450  helm uninstall myapp
+  451  helm uninstall myapp
+  452  minikube ssh
+  453  minikube ssh -n minikube-m02
+  454  k8s
+  455  cd workdir/
+  456  ls
+  457  helm install myapp umbrella-chart/
+  458  helm install myapp umbrella-chart/
+  459  kubectl 
+  460  kubectl get pods
+  461  kubectl get svc
+  462  kubectl get pods
+  463  helm list
+  464  minikube start
+  465  curl -v http://192.168.59.110:32086
+  466  kubectl get svc
+  467  kubectl get svc
+  468  kubectl get svc
+  469  kubectl get svc
+  470  kubectl get svc
+  471  helm list
+  472  helm list
+  473  helm list
+  474  helm list
+  475  minikube dashboard
+  476  helm list
+  477  minikube stop
+  478  minikube delete
+  479  minikube start --nodes=2
+  480  kubectl get deployment -n kube-system
+  481  minikube stop
+  482  cat hosts
+  483  cat >> hosts
+  484  cd C:\Windows\System32\drivers\etc
+  485  ls
+  486  cd \C:\Windows\System32\drivers\etc
+  487  cd /C:/Windows/System32/drivers/etc
+  488  cd /
+  489  LS
+  490  cd c
+  491  cd Windows/
+  492  cd System32/
+  493  cd etc
+  494  cd driver
+  495  cd drivers
+  496  cd etc/
+  497  cat >> hosts
+  498  k8s
+  499  kubectl get svc
+  500  kubectl get ingress -o yaml custom-ingress
+  501  kubectl get ingress -o yaml custom-ingress.yaml
+  502  ls
+  503* 
+  504  ls
+  505  kubectl get ingress -o yaml >> custom-ingress.yaml
+  506  vim custom-ingress.yaml
+  507  kubectl apply -f custom-ingress.yaml 
+  508  kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0
+  509  kubectl expose deployment web2 --port=8080 --type=NodePort
+  510  vim custom-ingress.yaml
+  511  kubectl delete ingress example-ingress
+  512  cat > custom-ingress.yaml 
+  513  vim custom-ingress.yaml
+  514  kubectl apply -f custom-ingress.yaml
+  515  kubectl get svc
+  516  cat custom-ingress.yaml
+  517  kubectl get pods
+  518  minikube ip
+  519  kubectl get svc
+  520  curl http://192
+  521  curl http://192.168.59.113:30154
+  522  curl http://192.168.59.113:32763
+  523  curl http://www.priyanshu.com
+  524  vim custom-ingress.yaml
+  525  kubectl apply -f custom-ingress.yaml
+  526  history >> history.txt 
+   38  kubectl logs wordpress-6666bc475d-6dw4w
+   39  wp
+   40  kubectl logs wordpress-6666bc475d-6dw4w
+   41  kubectl get pods
+   42  kubectl get svc
+   43  minikube ip
+   44  helm uninstall mysql
+   45  kubectl get pods
+   46  heml uninstall mysql
+   47  helm uninstall mysql
+   48  helm uninstall mysql
+   49  helm uninstall mysql
+   50  helm uninstall mysql
+   51  helm uninstall mysql
+   52  helm uninstall mysql
+   53  helm uninstall mysql
+   54  helm list
+   55  helm uninstall myapp
+   56  helm uninstall myapp
+   57  minikube ssh
+   58  minikube ssh -n minikube-m02
+   59  k8s
+   60  cd workdir/
+   61  ls
+   62  helm install myapp umbrella-chart/
+   63  helm install myapp umbrella-chart/
+   64  kubectl 
+   65  kubectl get pods
+   66  kubectl get svc
+   67  kubectl get pods
+   68  helm list
+   69  minikube start
+   70  curl -v http://192.168.59.110:32086
+   71  kubectl get svc
+   72  kubectl get svc
+   73  kubectl get svc
+   74  kubectl get svc
+   75  kubectl get svc
+   76  helm list
+   77  helm list
+   78  helm list
+   79  helm list
+   80  minikube dashboard
+   81  helm list
+   82  minikube stop
+   83  minikube delete
+   84  minikube start --nodes=2
+   85  kubectl get deployment -n kube-system
+   86  minikube stop
+   87  cat hosts
+   88  cat >> hosts
+   89  cd C:\Windows\System32\drivers\etc
+   90  ls
+   91  cd \C:\Windows\System32\drivers\etc
+   92  cd /C:/Windows/System32/drivers/etc
+   93  cd /
+   94  LS
+   95  cd c
+   96  cd Windows/
+   97  cd System32/
+   98  cd etc
+   99  cd driver
+  100  cd drivers
+  101  cd etc/
+  102  cat >> hosts
+  103  minikube start
+  104  minikube addon --help
+  105  minikube addons --help
+  106  clear
+  107  kubectl get pods
+  108  k8s
+  109  clear
+  110  minikube addons enable ingress
+  111  kubectl get pods
+  112  kubectl get nodes
+  113  kubectl get ns
+  114  kubectl get pods -n ingress-nginx
+  115  clear
+  116  kubectl get pods -n ingress-nginx
+  117  kubectl get pods -n ingress-nginx
+  118  kubectl get pods -n ingress-nginx
+  119  kubectl get deployment -n ingress-nginx
+  120  kubectl get daemonset -n ingress-nginx
+  121  kubectl get deployment -n ingress-nginx
+  122  clear
+  123  kubectl get pods -n ingress-nginx
+  124  kubectl get ingress
+  125  ls
+  126  cat nginx-deployment.yaml
+  127  kubectl apply -f nginx-deployment.yaml
+  128  kubectl expose deployment nginx-deployment --type=NodePort --port=80
+  129  kubectl create deployment apache --image=docker pull vimal13/apache-webserver-php
+  130  kubectl create deployment apache --image=vimal13/apache-webserver-php
+  131  kubectl get dep
+  132  kubectl get deployment
+  133  kubectl expose deployment apache --type=NodePort --port=80
+  134  kubectl get svc
+  135  minikube ip
+  136  kubectl get pods
+  137  kubectl scale deployment --help
+  138  kubectl scale deployment apache --replicas=5
+  139  clear
+  140  kubectl get pods
+  141  kubectl get pods
+  142  www.priyanshu.com
+  143  ping www.priyanshu.com
+  144  kubectl --help
+  145  kubectl explain ingress
+  146  kubectl explain ingress --recursive
+  147  kubectl explain ingress --recursive >> ingress.yaml
+  148  vim ingress.yaml
+  149  kubectl apply 0f ingress.yaml
+  150  kubectl apply -f ingress.yaml
+  151  cat ingress.yaml
+  152  kubectl get svc
+  153  vim ingress.yaml
+  154  kubectl apply -f ingress.yaml
+  155  vim ingress.yaml
+  156  kubectl apply -f ingress.yaml
+  157  vim ingress.yaml
+  158  kubectl apply -f ingress.yaml
+  159  kubectl get deployment
+  160  notepad ingress.yaml 
+  161  vim ingress.yaml 
+  162  kubectl apply -f ingress.yaml
+  163  vim ingress.yaml
+  164  kubectl apply -f ingress.yaml
+  165  kubectl get ingress
+  166  kubectl describe ingress myingress
+  167  kubectl get svc
+  168  kubectl delete all -all
+  169  kubectl delete all --all
+  170  kubectl create deployment web --image=gcr.io/google-samples/hello-app:1.0
+  171  kubectl expose deployment web --type=NodePort --port=8080
+  172  kubectl apply -f https://k8s.io/examples/service/networking/example-ingress.yaml
+  173  kubectl get ingress
+  174  kubectl edit ingress example-ingress
+  175  k8s
+  176  kubectl get svc
+  177  kubectl get ingress -o yaml custom-ingress
+  178  kubectl get ingress -o yaml custom-ingress.yaml
+  179  ls
+  180  ls
+  181  kubectl get ingress -o yaml >> custom-ingress.yaml
+  182  vim custom-ingress.yaml
+  183  kubectl apply -f custom-ingress.yaml 
+  184  kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0
+  185  kubectl expose deployment web2 --port=8080 --type=NodePort
+  186  vim custom-ingress.yaml
+  187  kubectl delete ingress example-ingress
+  188  cat > custom-ingress.yaml 
+  189  vim custom-ingress.yaml
+  190  kubectl apply -f custom-ingress.yaml
+  191  kubectl get svc
+  192  cat custom-ingress.yaml
+  193  kubectl get pods
+  194  minikube ip
+  195  kubectl get svc
+  196  curl http://192
+  197  curl http://192.168.59.113:30154
+  198  curl http://192.168.59.113:32763
+  199  curl http://www.priyanshu.com
+  200  vim custom-ingress.yaml
+  201  kubectl apply -f custom-ingress.yaml
+  202  history >> history.txt 
+  203  clear
+  204  ls
+  205  vim custom-ingress.yaml 
+  206  kubectl get pods
+  207  kubectl delete all --all
+  208  clear
+  209  kubectl get pods -n kube-system
+  210  minikube start --network-plugin=cni --cni=calico
+  211  kubectl get pods -n kube-system
+  212  minikube stop
+  213  minikube start --network-plugin=cni --cni=calico
+  214  kubectl get pods -n kube-system
+  215  kubectl get pods -n kube-system
+  216  kubectl get pods -n kube-system
+  217  kubectl get pods -n kube-system
+  218  kubectl get pods -n kube-system
+  219  kubectl get pods -n kube-system
+  220  kubectl get daemonset -n kube-system
+  221  kubectl delete daemonset kindnet -n kube-system
+  222  kubectl get pods -n kube-system
+  223  kubectl get pods -n kube-system
+  224  kubectl get pods -n kube-system
+  225  kubectl get pods -n kube-system
+  226  ls
+  227  kubectl get pods -n kube-system
+  228  kubectl get pods -n kube-system
+  229  kubectl get pods -n kube-system
+  230  kubectl get pods -n kube-system
+  231  kubectl get pods -n kube-system
+  232  kubectl get pods -n kube-system
+  233  kubectl get pods -n kube-system
+  234  kubectl get pods -n kube-system
+  235  kubectl get pods -n kube-system
+  236  kubectl get pods -n kube-system
+  237  kubectl get pods -n kube-system
+  238  kubectl get pods -n kube-system
+  239  kubectl get pods -n kube-system
+  240  clear
+  241  kubectl get Networkpolicy
+  242  vim network-policy.yaml
+  243  ls
+  244  cat mysql.yaml 
+  245  cp mysql.yaml mysql1.yaml
+  246  vim mysql.yaml
+  247  mv mysql1.yaml mysql-hostpath.yaml
+  248  cat wordpress.yaml
+  249  cp wordpress.yaml wordpress1.yaml
+  250  vim wordpress.yaml
+  251  mv wordpress1.yaml wordpress-hostpath.yaml
+  252  clear
+  253  kubectl apply -f mysql-secret.yaml
+  254  kubectl apply -f mysql.yaml
+  255  kubectl apply -f service_for_mysql.yaml
+  256  kubectl apply -f wordpress.yaml
+  257  kubectl apply -f service_for_wordpress.yaml
+  258  kubectl get svc
+  259  minikube ip
+  260  vim networkpolicy-mysql.yaml
+  261  vim networkpolicy-mysql.yaml
+  262  kubectl get pods --show-labels
+  263  kubectl apply -f networkpolicy.yaml 
+  264  kubectl get Networkpolicy
+  265  kubectl describe Networkpolicy test-network-policy
+  266  cat networkpolicy.yaml 
+  267  clear
+  268  kubectl get pods
+  269  kubectl get pods
+  270  kubectl get pods
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  kubectl get pods
+  275  clear
+  276  kubectl apply -f networkpolicy.yaml
+  277  cat networkpolicy.yaml
+  278  cat networkpolicy.yaml
+  279  vim\ networkpolicy.yaml
+  280  vim networkpolicy.yaml
+  281  kubectl apply -f networkpolicy.yaml
+  282  kubectl apply -f mysql-secret.yaml
+  283  kubectl apply -f mysql.yaml
+  284  kubectl get svc
+  285  kubectl apply -f service_for_mysql.yaml
+  286  kubectl apply -f service_for_wordpress.yaml
+  287  kubectl apply -f wordpress.yaml
+  288  kubectl get pods
+  289  clear
+  290  kubectl get pods
+  291  kubectl logs wordpress
+  292  kubectl logs wordpress
+  293  kubectl logs wordpress
+  294  kubectl logs wordpress
+  295  kubectl logs wordpress
+  296  kubectl get svc
+  297  minikube ip
+  298  kubectl logs wordpress
+  299  kubectl logs wordpress
+  300  kubectl get Networkpolicy
+  301  kubectl delete Networkpolicy test-network-policy
+  302  kubectl get pods
+  303  kubectl logs wordpress
+  304  kubectl logs wordpress --watch
+  305  kubectl logs wordpress -watch
+  306  kubectl logs wordpress --help
+  307  kubectl logs wordpress --follow=true
+  308  kubectl logs wordpress --follow=true
+  309  kubectl delete all --all
+  310  minikube stop
+  311  k8s
+  312  kubectl get pods --show-labels
+  313  kubectl logs wordpress
+  314  kubectl logs wordpress
+  315  kubectl logs wordpress
+  316  kubectl delete all -all
+  317  kubectl delete all --all
+  318  k8s
+  319  kubectl apply -f networkpolicy.yaml
+  320  minikube start
+  321  kubectl get pods
+  322  k8s
+  323  ls
+  324  kubectl apply -f custom-ingress.yaml
+  325  kubectl apply -f networkpolicy.yaml
+  326  kubectl get Networkpolicy
+  327  kubectl get Networkpolicy
+  328  kubectl describe Networkpolicy test-network-policy
+  329  cat networkpolicy.yaml
+  330  kubectl delete all --all
+  331  kubectl get Networkpolicy
+  332  kubectl delete test-network-policy
+  333  kubectl get Networkpolicy
+  334  kubectl get Networkpolicy
+  335  kubectl delete test-network-policy
+  336  kubectl delete test-network-policy
+  337  kubectl delete test-network-policy
+  338  kubectl get Networkpolicy
+  339  kubectl delete networkpolicy test-network-policy
+  340  kubectl delete ingress --all
+  341  cleae
+  342  cleaR
+  343  kubectl get sa --all-namespace
+  344  kubectl get sa --all ns
+  345  kubectl get sa --all
+  346  kubectl get sa --all-namespaces
+  347  clear
+  348  kubectl get sa --all-namespaces
+  349  history 
+  350  clear
+  351  kubectl get sa --all-namespaces
+  352  kubectl describe sa default default
+  353  kubectl get sa default default
+  354  kubectl get sa default default -o yaml
+  355  kubectl get sa default defaul-o yaml
+  356  kubectl get sa default -o yaml
+  357  kubectl get sa 
+  358  kubectl get sa default -o yaml
+  359  kubectl get sa default
+  360  kubectl describe sa default 
+  361  kubectl get secret
+  362  kubectl delete mysql-secret
+  363  kubectl delete secret mysql-secret
+  364  kubectl get sa 
+  365  kubectl get sa
+  366  vim serviceaccount.yaml
+  367  minikube stop
+  368  minikube start
+  369  ls
+  370  k8s
+  371  kubectl get sc
+  372  kubectl get sc
+  373  kubectl get sc -o yaml
+  374  minikube info
+  375  minikube --help
+  376  minikube completeion
+  377  minikube completion
+  378  minikube node --help
+  379  minikube node add --help
+  380  minikube node add  --worker=true
+  381  mkdir job_project
+  382  ls
+  383  cd job_project/
+  384  ls
+  385  cat >> hello
+  386  mv hello job.yml
+  387  cat >> config_map.yml
+  388  cat >> scenerio
+  389  cd ..
+  390  minikube stop
+  391  history
+  392  kubectl get limitation
+  393  kubectl get limitations
+  394  kubectl get --all
+  395  kubectl get --help
+  396  kubectl api-resources
+  397  kubectl get limitrange
+  398  kubectl create limitrange --all
+  399  kubectl create limitrange --help
+  400  minikube start
+  401  kubectl get nodes
+  402  minikube nodes
+  403  minikube node --help
+  404  minikube node delete minikube-m03
+  405  kubectl get nodes
+  406  kubectl get nodes
+  407  kubectl get nodes
+  408  kubectl get nodes
+  409  kubectl get nodes
+  410  kubectl get nodes
+  411  minikube 
+  412  kubectl get nodes
+  413  kubectl get nodes
+  414  kubectl get nodes
+  415  kubectl get nodes
+  416  kubectl describe node minikube-m02
+  417  kubectl get nodes
+  418  minikube stop
+  419  kubectl get nodes
+  420  kubectl get nodes
+  421  kubectl get nodes
+  422  kubectl get nodes
+  423  kubectl get nodes
+  424  kubectl get nodes
+  425  kubectl get nodes --watch
+  426  kubectl get nodes --watch
+  427  kubectl get nodes --watch
+  428  kubectl get nodes --watch
+  429  kubectl get nodes --watch
+  430  kubectl get nodes --watch
+  431  kubectl get nodes --watch
+  432  kubectl get nodes --watch
+  433  kubectl get nodes --watch
+  434  kubectl get nodes --watch
+  435  kubectl get nodes --watch
+  436  kubectl get nodes --watch
+  437  kubectl get nodes --watch
+  438  kubectl get nodes --watch
+  439  kubectl get nodes --watch
+  440  kubectl get nodes --watch
+  441  kubectl get nodes --watch
+  442  kubectl get nodes --watch
+  443  kubectl get nodes --watch
+  444  kubectl get nodes --watch
+  445  kubectl get nodes --watch
+  446  kubectl get nodes --watch
+  447  kubectl get nodes --watch
+  448  kubectl get nodes --watch
+  449  kubectl get nodes --watch
+  450  kubectl get nodes --watch
+  451  kubectl get nodes --watch
+  452  kubectl get nodes --watch
+  453  kubectl get nodes --watch
+  454  kubectl get nodes --watch
+  455  kubectl get nodes --watch
+  456  kubectl get nodes --watch
+  457  kubectl get nodes --watch
+  458  kubectl get nodes --watch
+  459  kubectl get nodes --watch
+  460  kubectl get nodes --watch
+  461  kubectl get nodes --watch
+  462  kubectl get nodes --watch
+  463  kubectl get nodes --watch
+  464  kubectl get nodes --watch
+  465  kubectl get nodes --watch
+  466  kubectl get nodes --watch
+  467  kubectl get nodes --watch
+  468  kubectl get nodes --watch
+  469  kubectl get nodes --watch
+  470  kubectl get nodes --watch
+  471  kubectl get nodes --watch
+  472  kubectl get nodes --watch
+  473  kubectl get nodes --watch
+  474  kubectl get nodes --watch
+  475  kubectl get nodes --watch
+  476  kubectl get nodes --watch
+  477  kubectl get nodes --watch
+  478  kubectl get nodes --watch
+  479  kubectl get nodes --watch
+  480  clear
+  481  minikube service
+  482  minikube service --all
+  483  minikube service jenkins
+  484  minikube service --help
+  485  clear
+  486  k8s
+  487  mkdir probes
+  488  cd probes/
+  489  cat >>pod-probe.yaml
+  490  vim pod-probe.yaml 
+  491  vim pod-probe.yaml 
+  492  vim pod-probe.yaml
+  493  cat >> readme.yaml
+  494  clear
+  495  ls
+  496  cd ..
+  497  ls
+  498  cat networkpolicy.yaml
+  499  minikube stop
+  500  minikube start --node=1
+  501  minikube start
+  502  cleare
+  503  clear
+  504  l
+  505  clear
+  506  k8s
+  507  clear
+  508  k8s
+  509  clear
+  510  pwd
+  511  cd ..
+  512  ls
+  513  mkdir ansible_project
+  514  cd ansible_project/
+  515  clear
+  516  kubectl top
+  517  kubectl top node
+  518  minikube aad
+  519  minikube addons metric-server
+  520  minikube addons enable metric-server
+  521  minikube dashboard
+  522  clear
+  523   minikube addons enable metrics-server
+  524  kubectl top node
+  525  kubectl top node
+  526  minikube addons disable metrics-server
+  527   minikube addons enable metrics-server
+  528  kubectl top node
+  529  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+  530  kubectl top node
+  531  kubectl top node
+  532  kubectl get pods
+  533  kubectl get pods -n kube-system
+  534  kubectl get pods -n kube-system
+  535  kubectl top nodes
+  536  kubectl top nodes
+  537  history >> ../k8s_yml/history.txt
+   40  kubectl logs wordpress-6666bc475d-6dw4w
+   41  kubectl get pods
+   42  kubectl get svc
+   43  minikube ip
+   44  helm uninstall mysql
+   45  kubectl get pods
+   46  heml uninstall mysql
+   47  helm uninstall mysql
+   48  helm uninstall mysql
+   49  helm uninstall mysql
+   50  helm uninstall mysql
+   51  helm uninstall mysql
+   52  helm uninstall mysql
+   53  helm uninstall mysql
+   54  helm list
+   55  helm uninstall myapp
+   56  helm uninstall myapp
+   57  minikube ssh
+   58  minikube ssh -n minikube-m02
+   59  k8s
+   60  cd workdir/
+   61  ls
+   62  helm install myapp umbrella-chart/
+   63  helm install myapp umbrella-chart/
+   64  kubectl 
+   65  kubectl get pods
+   66  kubectl get svc
+   67  kubectl get pods
+   68  helm list
+   69  minikube start
+   70  curl -v http://192.168.59.110:32086
+   71  kubectl get svc
+   72  kubectl get svc
+   73  kubectl get svc
+   74  kubectl get svc
+   75  kubectl get svc
+   76  helm list
+   77  helm list
+   78  helm list
+   79  helm list
+   80  minikube dashboard
+   81  helm list
+   82  minikube stop
+   83  minikube delete
+   84  minikube start --nodes=2
+   85  kubectl get deployment -n kube-system
+   86  minikube stop
+   87  cat hosts
+   88  cat >> hosts
+   89  cd C:\Windows\System32\drivers\etc
+   90  ls
+   91  cd \C:\Windows\System32\drivers\etc
+   92  cd /C:/Windows/System32/drivers/etc
+   93  cd /
+   94  LS
+   95  cd c
+   96  cd Windows/
+   97  cd System32/
+   98  cd etc
+   99  cd driver
+  100  cd drivers
+  101  cd etc/
+  102  cat >> hosts
+  103  minikube start
+  104  minikube addon --help
+  105  minikube addons --help
+  106  clear
+  107  kubectl get pods
+  108  k8s
+  109  clear
+  110  minikube addons enable ingress
+  111  kubectl get pods
+  112  kubectl get nodes
+  113  kubectl get ns
+  114  kubectl get pods -n ingress-nginx
+  115  clear
+  116  kubectl get pods -n ingress-nginx
+  117  kubectl get pods -n ingress-nginx
+  118  kubectl get pods -n ingress-nginx
+  119  kubectl get deployment -n ingress-nginx
+  120  kubectl get daemonset -n ingress-nginx
+  121  kubectl get deployment -n ingress-nginx
+  122  clear
+  123  kubectl get pods -n ingress-nginx
+  124  kubectl get ingress
+  125  ls
+  126  cat nginx-deployment.yaml
+  127  kubectl apply -f nginx-deployment.yaml
+  128  kubectl expose deployment nginx-deployment --type=NodePort --port=80
+  129  kubectl create deployment apache --image=docker pull vimal13/apache-webserver-php
+  130  kubectl create deployment apache --image=vimal13/apache-webserver-php
+  131  kubectl get dep
+  132  kubectl get deployment
+  133  kubectl expose deployment apache --type=NodePort --port=80
+  134  kubectl get svc
+  135  minikube ip
+  136  kubectl get pods
+  137  kubectl scale deployment --help
+  138  kubectl scale deployment apache --replicas=5
+  139  clear
+  140  kubectl get pods
+  141  kubectl get pods
+  142  www.priyanshu.com
+  143  ping www.priyanshu.com
+  144  kubectl --help
+  145  kubectl explain ingress
+  146  kubectl explain ingress --recursive
+  147  kubectl explain ingress --recursive >> ingress.yaml
+  148  vim ingress.yaml
+  149  kubectl apply 0f ingress.yaml
+  150  kubectl apply -f ingress.yaml
+  151  cat ingress.yaml
+  152  kubectl get svc
+  153  vim ingress.yaml
+  154  kubectl apply -f ingress.yaml
+  155  vim ingress.yaml
+  156  kubectl apply -f ingress.yaml
+  157  vim ingress.yaml
+  158  kubectl apply -f ingress.yaml
+  159  kubectl get deployment
+  160  notepad ingress.yaml 
+  161  vim ingress.yaml 
+  162  kubectl apply -f ingress.yaml
+  163  vim ingress.yaml
+  164  kubectl apply -f ingress.yaml
+  165  kubectl get ingress
+  166  kubectl describe ingress myingress
+  167  kubectl get svc
+  168  kubectl delete all -all
+  169  kubectl delete all --all
+  170  kubectl create deployment web --image=gcr.io/google-samples/hello-app:1.0
+  171  kubectl expose deployment web --type=NodePort --port=8080
+  172  kubectl apply -f https://k8s.io/examples/service/networking/example-ingress.yaml
+  173  kubectl get ingress
+  174  kubectl edit ingress example-ingress
+  175  k8s
+  176  kubectl get svc
+  177  kubectl get ingress -o yaml custom-ingress
+  178  kubectl get ingress -o yaml custom-ingress.yaml
+  179  ls
+  180  ls
+  181  kubectl get ingress -o yaml >> custom-ingress.yaml
+  182  vim custom-ingress.yaml
+  183  kubectl apply -f custom-ingress.yaml 
+  184  kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0
+  185  kubectl expose deployment web2 --port=8080 --type=NodePort
+  186  vim custom-ingress.yaml
+  187  kubectl delete ingress example-ingress
+  188  cat > custom-ingress.yaml 
+  189  vim custom-ingress.yaml
+  190  kubectl apply -f custom-ingress.yaml
+  191  kubectl get svc
+  192  cat custom-ingress.yaml
+  193  kubectl get pods
+  194  minikube ip
+  195  kubectl get svc
+  196  curl http://192
+  197  curl http://192.168.59.113:30154
+  198  curl http://192.168.59.113:32763
+  199  curl http://www.priyanshu.com
+  200  vim custom-ingress.yaml
+  201  kubectl apply -f custom-ingress.yaml
+  202  history >> history.txt 
+  203  clear
+  204  ls
+  205  vim custom-ingress.yaml 
+  206  kubectl get pods
+  207  kubectl delete all --all
+  208  clear
+  209  kubectl get pods -n kube-system
+  210  minikube start --network-plugin=cni --cni=calico
+  211  kubectl get pods -n kube-system
+  212  minikube stop
+  213  minikube start --network-plugin=cni --cni=calico
+  214  kubectl get pods -n kube-system
+  215  kubectl get pods -n kube-system
+  216  kubectl get pods -n kube-system
+  217  kubectl get pods -n kube-system
+  218  kubectl get pods -n kube-system
+  219  kubectl get pods -n kube-system
+  220  kubectl get daemonset -n kube-system
+  221  kubectl delete daemonset kindnet -n kube-system
+  222  kubectl get pods -n kube-system
+  223  kubectl get pods -n kube-system
+  224  kubectl get pods -n kube-system
+  225  kubectl get pods -n kube-system
+  226  ls
+  227  kubectl get pods -n kube-system
+  228  kubectl get pods -n kube-system
+  229  kubectl get pods -n kube-system
+  230  kubectl get pods -n kube-system
+  231  kubectl get pods -n kube-system
+  232  kubectl get pods -n kube-system
+  233  kubectl get pods -n kube-system
+  234  kubectl get pods -n kube-system
+  235  kubectl get pods -n kube-system
+  236  kubectl get pods -n kube-system
+  237  kubectl get pods -n kube-system
+  238  kubectl get pods -n kube-system
+  239  kubectl get pods -n kube-system
+  240  clear
+  241  kubectl get Networkpolicy
+  242  vim network-policy.yaml
+  243  ls
+  244  cat mysql.yaml 
+  245  cp mysql.yaml mysql1.yaml
+  246  vim mysql.yaml
+  247  mv mysql1.yaml mysql-hostpath.yaml
+  248  cat wordpress.yaml
+  249  cp wordpress.yaml wordpress1.yaml
+  250  vim wordpress.yaml
+  251  mv wordpress1.yaml wordpress-hostpath.yaml
+  252  clear
+  253  kubectl apply -f mysql-secret.yaml
+  254  kubectl apply -f mysql.yaml
+  255  kubectl apply -f service_for_mysql.yaml
+  256  kubectl apply -f wordpress.yaml
+  257  kubectl apply -f service_for_wordpress.yaml
+  258  kubectl get svc
+  259  minikube ip
+  260  vim networkpolicy-mysql.yaml
+  261  vim networkpolicy-mysql.yaml
+  262  kubectl get pods --show-labels
+  263  kubectl apply -f networkpolicy.yaml 
+  264  kubectl get Networkpolicy
+  265  kubectl describe Networkpolicy test-network-policy
+  266  cat networkpolicy.yaml 
+  267  clear
+  268  kubectl get pods
+  269  kubectl get pods
+  270  kubectl get pods
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  kubectl get pods
+  275  clear
+  276  kubectl apply -f networkpolicy.yaml
+  277  cat networkpolicy.yaml
+  278  cat networkpolicy.yaml
+  279  vim\ networkpolicy.yaml
+  280  vim networkpolicy.yaml
+  281  kubectl apply -f networkpolicy.yaml
+  282  kubectl apply -f mysql-secret.yaml
+  283  kubectl apply -f mysql.yaml
+  284  kubectl get svc
+  285  kubectl apply -f service_for_mysql.yaml
+  286  kubectl apply -f service_for_wordpress.yaml
+  287  kubectl apply -f wordpress.yaml
+  288  kubectl get pods
+  289  clear
+  290  kubectl get pods
+  291  kubectl logs wordpress
+  292  kubectl logs wordpress
+  293  kubectl logs wordpress
+  294  kubectl logs wordpress
+  295  kubectl logs wordpress
+  296  kubectl get svc
+  297  minikube ip
+  298  kubectl logs wordpress
+  299  kubectl logs wordpress
+  300  kubectl get Networkpolicy
+  301  kubectl delete Networkpolicy test-network-policy
+  302  kubectl get pods
+  303  kubectl logs wordpress
+  304  kubectl logs wordpress --watch
+  305  kubectl logs wordpress -watch
+  306  kubectl logs wordpress --help
+  307  kubectl logs wordpress --follow=true
+  308  kubectl logs wordpress --follow=true
+  309  kubectl delete all --all
+  310  minikube stop
+  311  k8s
+  312  kubectl get pods --show-labels
+  313  kubectl logs wordpress
+  314  kubectl logs wordpress
+  315  kubectl logs wordpress
+  316  kubectl delete all -all
+  317  kubectl delete all --all
+  318  k8s
+  319  kubectl apply -f networkpolicy.yaml
+  320  minikube start
+  321  kubectl get pods
+  322  k8s
+  323  ls
+  324  kubectl apply -f custom-ingress.yaml
+  325  kubectl apply -f networkpolicy.yaml
+  326  kubectl get Networkpolicy
+  327  kubectl get Networkpolicy
+  328  kubectl describe Networkpolicy test-network-policy
+  329  cat networkpolicy.yaml
+  330  kubectl delete all --all
+  331  kubectl get Networkpolicy
+  332  kubectl delete test-network-policy
+  333  kubectl get Networkpolicy
+  334  kubectl get Networkpolicy
+  335  kubectl delete test-network-policy
+  336  kubectl delete test-network-policy
+  337  kubectl delete test-network-policy
+  338  kubectl get Networkpolicy
+  339  kubectl delete networkpolicy test-network-policy
+  340  kubectl delete ingress --all
+  341  cleae
+  342  cleaR
+  343  kubectl get sa --all-namespace
+  344  kubectl get sa --all ns
+  345  kubectl get sa --all
+  346  kubectl get sa --all-namespaces
+  347  clear
+  348  kubectl get sa --all-namespaces
+  349  history 
+  350  clear
+  351  kubectl get sa --all-namespaces
+  352  kubectl describe sa default default
+  353  kubectl get sa default default
+  354  kubectl get sa default default -o yaml
+  355  kubectl get sa default defaul-o yaml
+  356  kubectl get sa default -o yaml
+  357  kubectl get sa 
+  358  kubectl get sa default -o yaml
+  359  kubectl get sa default
+  360  kubectl describe sa default 
+  361  kubectl get secret
+  362  kubectl delete mysql-secret
+  363  kubectl delete secret mysql-secret
+  364  kubectl get sa 
+  365  kubectl get sa
+  366  vim serviceaccount.yaml
+  367  minikube stop
+  368  minikube start
+  369  ls
+  370  k8s
+  371  kubectl get sc
+  372  kubectl get sc
+  373  kubectl get sc -o yaml
+  374  minikube info
+  375  minikube --help
+  376  minikube completeion
+  377  minikube completion
+  378  minikube node --help
+  379  minikube node add --help
+  380  minikube node add  --worker=true
+  381  mkdir job_project
+  382  ls
+  383  cd job_project/
+  384  ls
+  385  cat >> hello
+  386  mv hello job.yml
+  387  cat >> config_map.yml
+  388  cat >> scenerio
+  389  cd ..
+  390  minikube stop
+  391  history
+  392  kubectl get limitation
+  393  kubectl get limitations
+  394  kubectl get --all
+  395  kubectl get --help
+  396  kubectl api-resources
+  397  kubectl get limitrange
+  398  kubectl create limitrange --all
+  399  kubectl create limitrange --help
+  400  minikube start
+  401  kubectl get nodes
+  402  minikube nodes
+  403  minikube node --help
+  404  minikube node delete minikube-m03
+  405  kubectl get nodes
+  406  kubectl get nodes
+  407  kubectl get nodes
+  408  kubectl get nodes
+  409  kubectl get nodes
+  410  kubectl get nodes
+  411  minikube 
+  412  kubectl get nodes
+  413  kubectl get nodes
+  414  kubectl get nodes
+  415  kubectl get nodes
+  416  kubectl describe node minikube-m02
+  417  kubectl get nodes
+  418  minikube stop
+  419  kubectl get nodes
+  420  kubectl get nodes
+  421  kubectl get nodes
+  422  kubectl get nodes
+  423  kubectl get nodes
+  424  kubectl get nodes
+  425  kubectl get nodes --watch
+  426  kubectl get nodes --watch
+  427  kubectl get nodes --watch
+  428  kubectl get nodes --watch
+  429  kubectl get nodes --watch
+  430  kubectl get nodes --watch
+  431  kubectl get nodes --watch
+  432  kubectl get nodes --watch
+  433  kubectl get nodes --watch
+  434  kubectl get nodes --watch
+  435  kubectl get nodes --watch
+  436  kubectl get nodes --watch
+  437  kubectl get nodes --watch
+  438  kubectl get nodes --watch
+  439  kubectl get nodes --watch
+  440  kubectl get nodes --watch
+  441  kubectl get nodes --watch
+  442  kubectl get nodes --watch
+  443  kubectl get nodes --watch
+  444  kubectl get nodes --watch
+  445  kubectl get nodes --watch
+  446  kubectl get nodes --watch
+  447  kubectl get nodes --watch
+  448  kubectl get nodes --watch
+  449  kubectl get nodes --watch
+  450  kubectl get nodes --watch
+  451  kubectl get nodes --watch
+  452  kubectl get nodes --watch
+  453  kubectl get nodes --watch
+  454  kubectl get nodes --watch
+  455  kubectl get nodes --watch
+  456  kubectl get nodes --watch
+  457  kubectl get nodes --watch
+  458  kubectl get nodes --watch
+  459  kubectl get nodes --watch
+  460  kubectl get nodes --watch
+  461  kubectl get nodes --watch
+  462  kubectl get nodes --watch
+  463  kubectl get nodes --watch
+  464  kubectl get nodes --watch
+  465  kubectl get nodes --watch
+  466  kubectl get nodes --watch
+  467  kubectl get nodes --watch
+  468  kubectl get nodes --watch
+  469  kubectl get nodes --watch
+  470  kubectl get nodes --watch
+  471  kubectl get nodes --watch
+  472  kubectl get nodes --watch
+  473  kubectl get nodes --watch
+  474  kubectl get nodes --watch
+  475  kubectl get nodes --watch
+  476  kubectl get nodes --watch
+  477  kubectl get nodes --watch
+  478  kubectl get nodes --watch
+  479  kubectl get nodes --watch
+  480  clear
+  481  minikube service
+  482  minikube service --all
+  483  minikube service jenkins
+  484  minikube service --help
+  485  clear
+  486  k8s
+  487  mkdir probes
+  488  cd probes/
+  489  cat >>pod-probe.yaml
+  490  vim pod-probe.yaml 
+  491  vim pod-probe.yaml 
+  492  vim pod-probe.yaml
+  493  cat >> readme.yaml
+  494  clear
+  495  ls
+  496  cd ..
+  497  ls
+  498  cat networkpolicy.yaml
+  499  minikube stop
+  500  minikube start --node=1
+  501  minikube start
+  502  cleare
+  503  clear
+  504  l
+  505  clear
+  506  k8s
+  507  clear
+  508  k8s
+  509  clear
+  510  pwd
+  511  cd ..
+  512  ls
+  513  mkdir ansible_project
+  514  cd ansible_project/
+  515  clear
+  516  kubectl top
+  517  kubectl top node
+  518  minikube aad
+  519  minikube addons metric-server
+  520  minikube addons enable metric-server
+  521  minikube dashboard
+  522  clear
+  523   minikube addons enable metrics-server
+  524  kubectl top node
+  525  kubectl top node
+  526  minikube addons disable metrics-server
+  527   minikube addons enable metrics-server
+  528  kubectl top node
+  529  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+  530  kubectl top node
+  531  kubectl top node
+  532  kubectl get pods
+  533  kubectl get pods -n kube-system
+  534  kubectl get pods -n kube-system
+  535  kubectl top nodes
+  536  kubectl top nodes
+  537  history >> ../k8s_yml/history.txt
+  538  kubectl get hpa
+  539  history >> ../k8s_yml/history.txt
+   43  minikube ip
+   44  helm uninstall mysql
+   45  kubectl get pods
+   46  heml uninstall mysql
+   47  helm uninstall mysql
+   48  helm uninstall mysql
+   49  helm uninstall mysql
+   50  helm uninstall mysql
+   51  helm uninstall mysql
+   52  helm uninstall mysql
+   53  helm uninstall mysql
+   54  helm list
+   55  helm uninstall myapp
+   56  helm uninstall myapp
+   57  minikube ssh
+   58  minikube ssh -n minikube-m02
+   59  k8s
+   60  cd workdir/
+   61  ls
+   62  helm install myapp umbrella-chart/
+   63  helm install myapp umbrella-chart/
+   64  kubectl 
+   65  kubectl get pods
+   66  kubectl get svc
+   67  kubectl get pods
+   68  helm list
+   69  minikube start
+   70  curl -v http://192.168.59.110:32086
+   71  kubectl get svc
+   72  kubectl get svc
+   73  kubectl get svc
+   74  kubectl get svc
+   75  kubectl get svc
+   76  helm list
+   77  helm list
+   78  helm list
+   79  helm list
+   80  minikube dashboard
+   81  helm list
+   82  minikube stop
+   83  minikube delete
+   84  minikube start --nodes=2
+   85  kubectl get deployment -n kube-system
+   86  minikube stop
+   87  cat hosts
+   88  cat >> hosts
+   89  cd C:\Windows\System32\drivers\etc
+   90  ls
+   91  cd \C:\Windows\System32\drivers\etc
+   92  cd /C:/Windows/System32/drivers/etc
+   93  cd /
+   94  LS
+   95  cd c
+   96  cd Windows/
+   97  cd System32/
+   98  cd etc
+   99  cd driver
+  100  cd drivers
+  101  cd etc/
+  102  cat >> hosts
+  103  minikube start
+  104  minikube addon --help
+  105  minikube addons --help
+  106  clear
+  107  kubectl get pods
+  108  k8s
+  109  clear
+  110  minikube addons enable ingress
+  111  kubectl get pods
+  112  kubectl get nodes
+  113  kubectl get ns
+  114  kubectl get pods -n ingress-nginx
+  115  clear
+  116  kubectl get pods -n ingress-nginx
+  117  kubectl get pods -n ingress-nginx
+  118  kubectl get pods -n ingress-nginx
+  119  kubectl get deployment -n ingress-nginx
+  120  kubectl get daemonset -n ingress-nginx
+  121  kubectl get deployment -n ingress-nginx
+  122  clear
+  123  kubectl get pods -n ingress-nginx
+  124  kubectl get ingress
+  125  ls
+  126  cat nginx-deployment.yaml
+  127  kubectl apply -f nginx-deployment.yaml
+  128  kubectl expose deployment nginx-deployment --type=NodePort --port=80
+  129  kubectl create deployment apache --image=docker pull vimal13/apache-webserver-php
+  130  kubectl create deployment apache --image=vimal13/apache-webserver-php
+  131  kubectl get dep
+  132  kubectl get deployment
+  133  kubectl expose deployment apache --type=NodePort --port=80
+  134  kubectl get svc
+  135  minikube ip
+  136  kubectl get pods
+  137  kubectl scale deployment --help
+  138  kubectl scale deployment apache --replicas=5
+  139  clear
+  140  kubectl get pods
+  141  kubectl get pods
+  142  www.priyanshu.com
+  143  ping www.priyanshu.com
+  144  kubectl --help
+  145  kubectl explain ingress
+  146  kubectl explain ingress --recursive
+  147  kubectl explain ingress --recursive >> ingress.yaml
+  148  vim ingress.yaml
+  149  kubectl apply 0f ingress.yaml
+  150  kubectl apply -f ingress.yaml
+  151  cat ingress.yaml
+  152  kubectl get svc
+  153  vim ingress.yaml
+  154  kubectl apply -f ingress.yaml
+  155  vim ingress.yaml
+  156  kubectl apply -f ingress.yaml
+  157  vim ingress.yaml
+  158  kubectl apply -f ingress.yaml
+  159  kubectl get deployment
+  160  notepad ingress.yaml 
+  161  vim ingress.yaml 
+  162  kubectl apply -f ingress.yaml
+  163  vim ingress.yaml
+  164  kubectl apply -f ingress.yaml
+  165  kubectl get ingress
+  166  kubectl describe ingress myingress
+  167  kubectl get svc
+  168  kubectl delete all -all
+  169  kubectl delete all --all
+  170  kubectl create deployment web --image=gcr.io/google-samples/hello-app:1.0
+  171  kubectl expose deployment web --type=NodePort --port=8080
+  172  kubectl apply -f https://k8s.io/examples/service/networking/example-ingress.yaml
+  173  kubectl get ingress
+  174  kubectl edit ingress example-ingress
+  175  k8s
+  176  kubectl get svc
+  177  kubectl get ingress -o yaml custom-ingress
+  178  kubectl get ingress -o yaml custom-ingress.yaml
+  179  ls
+  180  ls
+  181  kubectl get ingress -o yaml >> custom-ingress.yaml
+  182  vim custom-ingress.yaml
+  183  kubectl apply -f custom-ingress.yaml 
+  184  kubectl create deployment web2 --image=gcr.io/google-samples/hello-app:2.0
+  185  kubectl expose deployment web2 --port=8080 --type=NodePort
+  186  vim custom-ingress.yaml
+  187  kubectl delete ingress example-ingress
+  188  cat > custom-ingress.yaml 
+  189  vim custom-ingress.yaml
+  190  kubectl apply -f custom-ingress.yaml
+  191  kubectl get svc
+  192  cat custom-ingress.yaml
+  193  kubectl get pods
+  194  minikube ip
+  195  kubectl get svc
+  196  curl http://192
+  197  curl http://192.168.59.113:30154
+  198  curl http://192.168.59.113:32763
+  199  curl http://www.priyanshu.com
+  200  vim custom-ingress.yaml
+  201  kubectl apply -f custom-ingress.yaml
+  202  history >> history.txt 
+  203  clear
+  204  ls
+  205  vim custom-ingress.yaml 
+  206  kubectl get pods
+  207  kubectl delete all --all
+  208  clear
+  209  kubectl get pods -n kube-system
+  210  minikube start --network-plugin=cni --cni=calico
+  211  kubectl get pods -n kube-system
+  212  minikube stop
+  213  minikube start --network-plugin=cni --cni=calico
+  214  kubectl get pods -n kube-system
+  215  kubectl get pods -n kube-system
+  216  kubectl get pods -n kube-system
+  217  kubectl get pods -n kube-system
+  218  kubectl get pods -n kube-system
+  219  kubectl get pods -n kube-system
+  220  kubectl get daemonset -n kube-system
+  221  kubectl delete daemonset kindnet -n kube-system
+  222  kubectl get pods -n kube-system
+  223  kubectl get pods -n kube-system
+  224  kubectl get pods -n kube-system
+  225  kubectl get pods -n kube-system
+  226  ls
+  227  kubectl get pods -n kube-system
+  228  kubectl get pods -n kube-system
+  229  kubectl get pods -n kube-system
+  230  kubectl get pods -n kube-system
+  231  kubectl get pods -n kube-system
+  232  kubectl get pods -n kube-system
+  233  kubectl get pods -n kube-system
+  234  kubectl get pods -n kube-system
+  235  kubectl get pods -n kube-system
+  236  kubectl get pods -n kube-system
+  237  kubectl get pods -n kube-system
+  238  kubectl get pods -n kube-system
+  239  kubectl get pods -n kube-system
+  240  clear
+  241  kubectl get Networkpolicy
+  242  vim network-policy.yaml
+  243  ls
+  244  cat mysql.yaml 
+  245  cp mysql.yaml mysql1.yaml
+  246  vim mysql.yaml
+  247  mv mysql1.yaml mysql-hostpath.yaml
+  248  cat wordpress.yaml
+  249  cp wordpress.yaml wordpress1.yaml
+  250  vim wordpress.yaml
+  251  mv wordpress1.yaml wordpress-hostpath.yaml
+  252  clear
+  253  kubectl apply -f mysql-secret.yaml
+  254  kubectl apply -f mysql.yaml
+  255  kubectl apply -f service_for_mysql.yaml
+  256  kubectl apply -f wordpress.yaml
+  257  kubectl apply -f service_for_wordpress.yaml
+  258  kubectl get svc
+  259  minikube ip
+  260  vim networkpolicy-mysql.yaml
+  261  vim networkpolicy-mysql.yaml
+  262  kubectl get pods --show-labels
+  263  kubectl apply -f networkpolicy.yaml 
+  264  kubectl get Networkpolicy
+  265  kubectl describe Networkpolicy test-network-policy
+  266  cat networkpolicy.yaml 
+  267  clear
+  268  kubectl get pods
+  269  kubectl get pods
+  270  kubectl get pods
+  271  kubectl get pods
+  272  kubectl get pods
+  273  kubectl get pods
+  274  kubectl get pods
+  275  clear
+  276  kubectl apply -f networkpolicy.yaml
+  277  cat networkpolicy.yaml
+  278  cat networkpolicy.yaml
+  279  vim\ networkpolicy.yaml
+  280  vim networkpolicy.yaml
+  281  kubectl apply -f networkpolicy.yaml
+  282  kubectl apply -f mysql-secret.yaml
+  283  kubectl apply -f mysql.yaml
+  284  kubectl get svc
+  285  kubectl apply -f service_for_mysql.yaml
+  286  kubectl apply -f service_for_wordpress.yaml
+  287  kubectl apply -f wordpress.yaml
+  288  kubectl get pods
+  289  clear
+  290  kubectl get pods
+  291  kubectl logs wordpress
+  292  kubectl logs wordpress
+  293  kubectl logs wordpress
+  294  kubectl logs wordpress
+  295  kubectl logs wordpress
+  296  kubectl get svc
+  297  minikube ip
+  298  kubectl logs wordpress
+  299  kubectl logs wordpress
+  300  kubectl get Networkpolicy
+  301  kubectl delete Networkpolicy test-network-policy
+  302  kubectl get pods
+  303  kubectl logs wordpress
+  304  kubectl logs wordpress --watch
+  305  kubectl logs wordpress -watch
+  306  kubectl logs wordpress --help
+  307  kubectl logs wordpress --follow=true
+  308  kubectl logs wordpress --follow=true
+  309  kubectl delete all --all
+  310  minikube stop
+  311  k8s
+  312  kubectl get pods --show-labels
+  313  kubectl logs wordpress
+  314  kubectl logs wordpress
+  315  kubectl logs wordpress
+  316  kubectl delete all -all
+  317  kubectl delete all --all
+  318  k8s
+  319  kubectl apply -f networkpolicy.yaml
+  320  minikube start
+  321  kubectl get pods
+  322  k8s
+  323  ls
+  324  kubectl apply -f custom-ingress.yaml
+  325  kubectl apply -f networkpolicy.yaml
+  326  kubectl get Networkpolicy
+  327  kubectl get Networkpolicy
+  328  kubectl describe Networkpolicy test-network-policy
+  329  cat networkpolicy.yaml
+  330  kubectl delete all --all
+  331  kubectl get Networkpolicy
+  332  kubectl delete test-network-policy
+  333  kubectl get Networkpolicy
+  334  kubectl get Networkpolicy
+  335  kubectl delete test-network-policy
+  336  kubectl delete test-network-policy
+  337  kubectl delete test-network-policy
+  338  kubectl get Networkpolicy
+  339  kubectl delete networkpolicy test-network-policy
+  340  kubectl delete ingress --all
+  341  cleae
+  342  cleaR
+  343  kubectl get sa --all-namespace
+  344  kubectl get sa --all ns
+  345  kubectl get sa --all
+  346  kubectl get sa --all-namespaces
+  347  clear
+  348  kubectl get sa --all-namespaces
+  349  history 
+  350  clear
+  351  kubectl get sa --all-namespaces
+  352  kubectl describe sa default default
+  353  kubectl get sa default default
+  354  kubectl get sa default default -o yaml
+  355  kubectl get sa default defaul-o yaml
+  356  kubectl get sa default -o yaml
+  357  kubectl get sa 
+  358  kubectl get sa default -o yaml
+  359  kubectl get sa default
+  360  kubectl describe sa default 
+  361  kubectl get secret
+  362  kubectl delete mysql-secret
+  363  kubectl delete secret mysql-secret
+  364  kubectl get sa 
+  365  kubectl get sa
+  366  vim serviceaccount.yaml
+  367  minikube stop
+  368  minikube start
+  369  ls
+  370  k8s
+  371  kubectl get sc
+  372  kubectl get sc
+  373  kubectl get sc -o yaml
+  374  minikube info
+  375  minikube --help
+  376  minikube completeion
+  377  minikube completion
+  378  minikube node --help
+  379  minikube node add --help
+  380  minikube node add  --worker=true
+  381  mkdir job_project
+  382  ls
+  383  cd job_project/
+  384  ls
+  385  cat >> hello
+  386  mv hello job.yml
+  387  cat >> config_map.yml
+  388  cat >> scenerio
+  389  cd ..
+  390  minikube stop
+  391  history
+  392  kubectl get limitation
+  393  kubectl get limitations
+  394  kubectl get --all
+  395  kubectl get --help
+  396  kubectl api-resources
+  397  kubectl get limitrange
+  398  kubectl create limitrange --all
+  399  kubectl create limitrange --help
+  400  minikube start
+  401  kubectl get nodes
+  402  minikube nodes
+  403  minikube node --help
+  404  minikube node delete minikube-m03
+  405  kubectl get nodes
+  406  kubectl get nodes
+  407  kubectl get nodes
+  408  kubectl get nodes
+  409  kubectl get nodes
+  410  kubectl get nodes
+  411  minikube 
+  412  kubectl get nodes
+  413  kubectl get nodes
+  414  kubectl get nodes
+  415  kubectl get nodes
+  416  kubectl describe node minikube-m02
+  417  kubectl get nodes
+  418  minikube stop
+  419  kubectl get nodes
+  420  kubectl get nodes
+  421  kubectl get nodes
+  422  kubectl get nodes
+  423  kubectl get nodes
+  424  kubectl get nodes
+  425  kubectl get nodes --watch
+  426  kubectl get nodes --watch
+  427  kubectl get nodes --watch
+  428  kubectl get nodes --watch
+  429  kubectl get nodes --watch
+  430  kubectl get nodes --watch
+  431  kubectl get nodes --watch
+  432  kubectl get nodes --watch
+  433  kubectl get nodes --watch
+  434  kubectl get nodes --watch
+  435  kubectl get nodes --watch
+  436  kubectl get nodes --watch
+  437  kubectl get nodes --watch
+  438  kubectl get nodes --watch
+  439  kubectl get nodes --watch
+  440  kubectl get nodes --watch
+  441  kubectl get nodes --watch
+  442  kubectl get nodes --watch
+  443  kubectl get nodes --watch
+  444  kubectl get nodes --watch
+  445  kubectl get nodes --watch
+  446  kubectl get nodes --watch
+  447  kubectl get nodes --watch
+  448  kubectl get nodes --watch
+  449  kubectl get nodes --watch
+  450  kubectl get nodes --watch
+  451  kubectl get nodes --watch
+  452  kubectl get nodes --watch
+  453  kubectl get nodes --watch
+  454  kubectl get nodes --watch
+  455  kubectl get nodes --watch
+  456  kubectl get nodes --watch
+  457  kubectl get nodes --watch
+  458  kubectl get nodes --watch
+  459  kubectl get nodes --watch
+  460  kubectl get nodes --watch
+  461  kubectl get nodes --watch
+  462  kubectl get nodes --watch
+  463  kubectl get nodes --watch
+  464  kubectl get nodes --watch
+  465  kubectl get nodes --watch
+  466  kubectl get nodes --watch
+  467  kubectl get nodes --watch
+  468  kubectl get nodes --watch
+  469  kubectl get nodes --watch
+  470  kubectl get nodes --watch
+  471  kubectl get nodes --watch
+  472  kubectl get nodes --watch
+  473  kubectl get nodes --watch
+  474  kubectl get nodes --watch
+  475  kubectl get nodes --watch
+  476  kubectl get nodes --watch
+  477  kubectl get nodes --watch
+  478  kubectl get nodes --watch
+  479  kubectl get nodes --watch
+  480  clear
+  481  minikube service
+  482  minikube service --all
+  483  minikube service jenkins
+  484  minikube service --help
+  485  clear
+  486  k8s
+  487  mkdir probes
+  488  cd probes/
+  489  cat >>pod-probe.yaml
+  490  vim pod-probe.yaml 
+  491  vim pod-probe.yaml 
+  492  vim pod-probe.yaml
+  493  cat >> readme.yaml
+  494  clear
+  495  ls
+  496  cd ..
+  497  ls
+  498  cat networkpolicy.yaml
+  499  minikube stop
+  500  minikube start --node=1
+  501  minikube start
+  502  cleare
+  503  clear
+  504  l
+  505  clear
+  506  k8s
+  507  clear
+  508  k8s
+  509  clear
+  510  pwd
+  511  cd ..
+  512  ls
+  513  mkdir ansible_project
+  514  cd ansible_project/
+  515  clear
+  516  kubectl top
+  517  kubectl top node
+  518  minikube aad
+  519  minikube addons metric-server
+  520  minikube addons enable metric-server
+  521  minikube dashboard
+  522  clear
+  523   minikube addons enable metrics-server
+  524  kubectl top node
+  525  kubectl top node
+  526  minikube addons disable metrics-server
+  527   minikube addons enable metrics-server
+  528  kubectl top node
+  529  kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+  530  kubectl top node
+  531  kubectl top node
+  532  kubectl get pods
+  533  kubectl get pods -n kube-system
+  534  kubectl get pods -n kube-system
+  535  kubectl top nodes
+  536  kubectl top nodes
+  537  history >> ../k8s_yml/history.txt
+  538  kubectl get hpa
+  539  history >> ../k8s_yml/history.txt
+  540  kubectl get limits
+  541  kubectl get quotas
+  542  history >> ../k8s_yml/history.txt

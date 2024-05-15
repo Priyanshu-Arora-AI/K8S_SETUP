@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wordpress
+  labels:
+    app: wordpress
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: wordpress
+  template:
+    metadata:
+      labels:
+        app: wordpress
+        region: india
+    spec:
+      volumes:
+        - name: wordpress-vol
+          hostPath:
+            path: /home/test
+      containers:
+        - name: wordpress
+          image: wordpress:5.1.1-php7.3
+          ports:
+            - containerPort: 80
+          env :
+            - name: WORDPRESS_DB_HOST
+              value: mysql
+            - name: WORDPRESS_DB_USER
+              value: priyanshu
+            - name: WORDPRESS_DB_PASSWORD
+              value: root
+            - name: WORDPRESS_TABLE_PREFIX
+              value: wp_
+            - name : WORDPRESS_DB_NAME
+              value : wordpress  
+  
+          volumeMounts:
+            - name: wordpress-vol
+              mountPath: /var/www/html

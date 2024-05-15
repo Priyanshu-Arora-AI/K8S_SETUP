@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: jenkins-deployment
+  labels:
+    app: jen1
+spec:
+  selector:
+    matchLabels:
+      app: pipeline
+  template:
+    metadata:
+      labels:
+        app: pipeline
+        region : india
+    spec:
+      containers:
+      - name: jenkins21
+        image: nginx
+        ports:
+        - containerPort: 80

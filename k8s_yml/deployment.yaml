@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-deployment
+  labels:
+    app: jen1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: pipeline
+  template:
+    metadata:
+      labels:
+        app: pipeline
+        region : india
+    spec:
+      containers:
+      - name: jenkins21
+        image: jenkins/jenkins:lts-jdk17
+        ports:
+        - containerPort: 80
