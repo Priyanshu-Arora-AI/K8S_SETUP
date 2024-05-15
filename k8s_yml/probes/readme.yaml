@@ -1,0 +1,15 @@
+sequence:
+
+Startup Probe: The startup probe runs first when the container starts. It checks whether the container has initialized successfully and is ready to serve traffic. If the startup probe fails, Kubernetes may restart the container to attempt to bring it to a healthy state.
+Readiness Probe: After the container passes the startup probe and is considered initialized, Kubernetes starts evaluating the readiness probe. The readiness probe determines whether the container is ready to receive traffic. If the readiness probe fails, Kubernetes stops directing traffic to the container but doesn't automatically restart it. Instead, Kubernetes waits for the container to become ready again.
+Liveness Probe: Once the container is serving traffic and considered ready, Kubernetes begins monitoring the container's ongoing health using the liveness probe. The liveness probe checks whether the container is still responsive and functioning correctly. If the liveness probe fails, Kubernetes may restart the container to attempt to restore its health
+
+
+In Kubernetes, if a readiness probe fails, it doesn't automatically trigger the deletion of the Pod by default. Instead, the Pod remains in an "unready" state, and Kubernetes stops directing traffic to it until the probe succeeds again.
+
+However, you can configure Kubernetes to take certain actions when a Pod fails its readiness probe repeatedly. One common approach is to use a combination of Pod disruption budgets, pod anti-affinity rules, and eviction policies to manage Pod failures and ensure high availability of your application.
+
+
+When a liveness probe fails, Kubernetes will take action to handle the failure and potentially recover the Pod. The specific action taken depends on your Kubernetes configuration and the policies you've defined. By default, Kubernetes restarts the container if its liveness probe fails
+
+If a startup probe fails, Kubernetes considers the container startup as unsuccessful and may take action depending on the configured policies. By default, Kubernetes will wait for the startup probe to succeed before marking the Pod as ready and allowing it to receive traffic
