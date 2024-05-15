@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: data-processing-job
+spec:
+  parallelism: 3 # Number of pods to run concurrently
+  completions: 3 # Number of pods to successfully complete the job
+  template:
+    metadata:
+      name: data-processing-pod
+    spec:
+      containers:
+      - name: data-processor
+        image: your-data-processor-image:tag
+        command: ["python", "data_processor.py"] # Assuming the Python script is named data_processor.py
+        env:
+        - name: DATA
+          valueFrom:
+            configMapKeyRef:
+              name: data-configmap
+              key: data-value
+      restartPolicy: Never

@@ -1,0 +1,25 @@
+scenario where we create a single Kubernetes Job YAML file (job.yaml) that runs three pods concurrently, each with a different value for the DATA environment variable:
+In this scenario:
+
+We have a single Kubernetes Job named data-processing-job.
+The parallelism field specifies that three pods should run concurrently.
+The completions field ensures that the job is considered successful only when all three pods complete successfully.
+Each pod is based on the same template (data-processing-pod), which contains a single container named data-processor.
+The container uses the image your-data-processor-image:tag, which should contain the code to process the data.
+We pass the data to each pod via the DATA environment variable.
+The value for the DATA environment variable is sourced from a ConfigMap named data-configmap, using the key data-value.
+Now, we need to create the ConfigMap that contains the different data values:
+
+In this ConfigMap:
+
+data1, data2, and data3 are keys representing different data values.
+"value1", "value2", and "value3" are the corresponding data values.
+Apply the ConfigMap and the Job YAML:
+
+This will create a single Kubernetes Job that runs three pods concurrently, each pod receiving a different data value via the DATA environment variable sourced from the ConfigMap.
+
+
+
+
+
+
